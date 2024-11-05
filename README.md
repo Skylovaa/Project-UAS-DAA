@@ -1,4 +1,4 @@
-# Project-UAS-DAA
+# Adaptive dynamic progamming dalam mengoptimalkan pengiriman barang PT JNE jalur udara. 
 
 About this project❓
 - *Operational Challenges*:
@@ -20,10 +20,10 @@ Our Team 👩‍💻👨‍💻
 - Syedha Audry Timothy Piri
 
 
-Contributing
+# Contributing
 Contributions are always welcome! Just raise an issue, we will discuss it.
 
 
 
-Feedback
+# Feedback
 If you have any feedback, please reach out to us at syedhapiri20@gmail.com
