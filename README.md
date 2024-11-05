@@ -11,7 +11,7 @@ DP is identified as a powerful method for solving optimization problems under mu
 - *Adaptive Dynamic Programming (ADP)*:
 ADP, which incorporates reinforcement learning, is proposed as an effective solution for PT JNE’s flight scheduling challenges, allowing for continuous learning and adaptation to changing circumstances. The goal is to enhance delivery timeliness, reduce costs, and improve customer satisfaction through the implementation of ADP.
    
-Components
+
 
 Our Team 👩‍💻👨‍💻
 Joy Eaudia
@@ -22,6 +22,8 @@ Syedha Audry Timothy Piri
 
 Contributing
 Contributions are always welcome! Just raise an issue, we will discuss it.
+
+
 
 Feedback
 If you have any feedback, please reach out to us at syedhapiri20@gmail.com
