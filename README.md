@@ -1,4 +1,4 @@
-# Adaptive dynamic progamming dalam mengoptimalkan pengiriman barang PT JNE jalur udara. 🚀🚀
+# Adaptive dynamic progamming dalam mengoptimalkan pengiriman barang PT JNE jalur udara. 🚀
 
 About this project❓❓❓
 - *Operational Challenges*:
