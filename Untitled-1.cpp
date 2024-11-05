@@ -1,51 +1,77 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-mnhbgvr
-using namespace std;
+# Define ADP Model for Delivery Scheduling
+class DeliveryADP:
+    def __init__(self, data, alpha=0.1, gamma=0.9):
+        self.data = data  # The delivery data
+        self.alpha = alpha  # Learning rate
+        self.gamma = gamma  # Discount factor
+        self.value_function = {}  # Stores V(s) for each state
+        self.policy = {}  # Stores best action for each state
+        self.states = self.initialize_states()  # Initialize possible states
 
-// Function to solve the Knapsack problem using Dynamic Programming
-int knapsack(int W, const vector<int>& weights, const vector<int>& values, int n) {
-    // Create a DP table to store results of subproblems
-    vector<vector<int>> dp(n + 1, vector<int>(W + 1));
+    # Step 1: Initialize states from data
+    def initialize_states(self): ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        # Define states based on available columns (Location, Traffic, etc.)
+        states = self.data[['Orgin', 'Transit', 'Destination', 'Maskapai', 'Daerah Tujuan' , 'Traffic_Condition', 'Weather_Condition', 'Vehicle_Available', 'Personel_Available', 'Additional Notes', 'Runway Occupancy Time', 'Estimated Time']].values
+        for state in states:
+            state_tuple = tuple(state)
+            self.value_function[state_tuple] = 0  # Initialize V(s) to 0
+        return states
 
-    // Build the table dp[][] in bottom-up manner
-    for (int i = 0; i <= n; i++) {
-        for (int w = 0; w <= W; w++) {
-            if (i == 0 || w == 0)
-                dp[i][w] = 0;
-            else if (weights[i - 1] <= w)
-                dp[i][w] = max(values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w]);
-            else
-                dp[i][w] = dp[i - 1][w];
-        }
-    }
+    # Step 2: Define actions (simplified as 'Proceed' or 'Wait')
+    def possible_actions(self, state):
+        return ['Proceed', 'Wait']
 
-    return dp[n][W]; // The maximum value that can be put in a knapsack of capacity W
-}
+    # Step 3: Transition function to get the next state based on the current state and action
+    def transition(self, state, action):
+        if action == 'Proceed':
+            # Example transition logic: move to a random next state
+            # Select a random row index from the states array
+            random_index = np.random.choice(self.states.shape[0])
+            # Use the random index to get a 1D state from the 2D states array
+            next_state = tuple(self.states[random_index])
+        else:
+            # If 'Wait', return the current state (indicating delay)
+            next_state = state
+        return next_state
 
-int main() {
-    int n, W;
-    cout << "Enter number of items: ";
-    cin >> n;
-    
-    vector<int> weights(n), values(n);
-    
-    cout << "Enter the capacity of the knapsack: ";
-    cin >> W;
-    
-    cout << "Enter the weights of the items:\n";
-    for (int i = 0; i < n; i++) {
-        cin >> weights[i];
-    }
-    
-    cout << "Enter the values of the items:\n";
-    for (int i = 0; i < n; i++) {
-        cin >> values[i];
-    }
+    # Step 4: Reward function based on action taken
+    def reward(self, state, action):
+        if action == 'Proceed':
+            return 10  # Reward for proceeding
+        else:
+            return -5  # Penalty for waiting
 
-    // Call knapsack function and output the result
-    cout << "Maximum value in Knapsack = " << knapsack(W, weights, values, n) << endl;
-    
-    return 0;
-}
+    # Step 5: Run an ADP iteration (single episode)
+    def run_episode(self):
+        current_state = tuple(self.states[np.random.randint(len(self.states))])
+        total_reward = 0
+
+        for _ in range(10):  # Run for a fixed number of steps
+            actions = self.possible_actions(current_state)
+            action = np.random.choice(actions)  # Choose an action (explore/exploit could be added here)
+            reward = self.reward(current_state, action)
+            total_reward += reward
+
+            # Observe next state and update value function
+            next_state = self.transition(current_state, action)
+            next_state_tuple = tuple(next_state)
+
+            # Update V(s) using ADP value function update
+            self.value_function[current_state] += self.alpha * (reward + self.gamma * self.value_function.get(next_state_tuple, 0) - self.value_function[current_state])
+
+            # Update policy to choose the action with the highest estimated value
+            best_action = max(actions, key=lambda a: self.value_function.get(next_state_tuple, 0))
+            self.policy[current_state] = best_action
+
+            # Move to the next state
+            current_state = next_state_tuple
+
+        return total_reward
+
+    # Step 6: Run multiple episodes to improve policy and value function
+    def train(self, episodes=100):
+        rewards = []
+        for episode in range(episodes):
+            episode_reward = self.run_episode()
+            rewards.append(episode_reward)
+        return rewards
