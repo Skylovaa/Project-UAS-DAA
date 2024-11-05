@@ -1,6 +1,6 @@
 # Adaptive dynamic progamming dalam mengoptimalkan pengiriman barang PT JNE jalur udara. 
 
-About this project❓
+About this project❓❓❓
 - *Operational Challenges*:
 PT JNE faces significant difficulties in ensuring timely and efficient deliveries within extensive shipping networks, particularly due to flight scheduling for international and inter-island shipments. Flight delays can lead to increased shipment delays, impacting customer satisfaction and raising operational costs.
 -  *Complex Scheduling Factors*:
@@ -20,10 +20,10 @@ Our Team 👩‍💻👨‍💻
 - Syedha Audry Timothy Piri
 
 
-# Contributing
+# Contributing 🚀✍️🍴
 Contributions are always welcome! Just raise an issue, we will discuss it.
 
 
 
-# Feedback
+# Feedback ✍️📬
 If you have any feedback, please reach out to us at syedhapiri20@gmail.com
