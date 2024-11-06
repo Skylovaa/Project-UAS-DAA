@@ -14,11 +14,10 @@ ADP, which incorporates reinforcement learning, is proposed as an effective solu
 
 
 Our Team 👩‍💻👨‍💻
-- **[Joy Eaudia](joyeaudia752265@gmail.com)**
-joyeaudia752265@gmail.com
-- Karina Amalia Herfery
-- Kayla Fakhira
-- Syedha Audry Timothy Piri
+- **[joyeaudia](joyeaudia752265@gmail.com)**
+- **[Karina Amalia Herfery](karinaamalia10@gmail.com)**
+- **[Kayla Fahkira](kaylafakhira07@gmail.com)**
+- **[Syedha Audry Timothy Piri](syedha.piri8c@gmail.com)**
 
 
 # Contributing 🚀✍️🍴
