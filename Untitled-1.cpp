@@ -1,77 +1,164 @@
-# Define ADP Model for Delivery Scheduling
-class DeliveryADP:
-    def __init__(self, data, alpha=0.1, gamma=0.9):
-        self.data = data  # The delivery data
-        self.alpha = alpha  # Learning rate
-        self.gamma = gamma  # Discount factor
-        self.value_function = {}  # Stores V(s) for each state
-        self.policy = {}  # Stores best action for each state
-        self.states = self.initialize_states()  # Initialize possible states
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <sstream>
+#include <unordered_map>
+#include <algorithm>
+#include <limits>
 
-    # Step 1: Initialize states from data
-    def initialize_states(self): ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        # Define states based on available columns (Location, Traffic, etc.)
-        states = self.data[['Orgin', 'Transit', 'Destination', 'Maskapai', 'Daerah Tujuan' , 'Traffic_Condition', 'Weather_Condition', 'Vehicle_Available', 'Personel_Available', 'Additional Notes', 'Runway Occupancy Time', 'Estimated Time']].values
-        for state in states:
-            state_tuple = tuple(state)
-            self.value_function[state_tuple] = 0  # Initialize V(s) to 0
-        return states
+using namespace std;
 
-    # Step 2: Define actions (simplified as 'Proceed' or 'Wait')
-    def possible_actions(self, state):
-        return ['Proceed', 'Wait']
+// Define a structure for state variables
+struct State {
+    string origin;
+    string transit;
+    string destination;
+    string maskapai;
+    string daerahTujuan;
+    string trafficCondition;
+    string weatherCondition;
+    bool vehicleAvailable;
+    bool personnelAvailable;
+    string additionalNotes;
+    int runwayOccupancyTime;  // In minutes
+    int estimatedTime;        // In minutes
 
-    # Step 3: Transition function to get the next state based on the current state and action
-    def transition(self, state, action):
-        if action == 'Proceed':
-            # Example transition logic: move to a random next state
-            # Select a random row index from the states array
-            random_index = np.random.choice(self.states.shape[0])
-            # Use the random index to get a 1D state from the 2D states array
-            next_state = tuple(self.states[random_index])
-        else:
-            # If 'Wait', return the current state (indicating delay)
-            next_state = state
-        return next_state
+    bool operator==(const State& other) const {
+        return origin == other.origin &&
+               destination == other.destination &&
+               trafficCondition == other.trafficCondition &&
+               weatherCondition == other.weatherCondition &&
+               vehicleAvailable == other.vehicleAvailable &&
+               personnelAvailable == other.personnelAvailable;
+    }
+};
 
-    # Step 4: Reward function based on action taken
-    def reward(self, state, action):
-        if action == 'Proceed':
-            return 10  # Reward for proceeding
-        else:
-            return -5  # Penalty for waiting
+// Hash function for unordered_map
+struct StateHasher {
+    size_t operator()(const State& state) const {
+        return hash<string>()(state.origin) ^ hash<string>()(state.destination) ^
+               hash<string>()(state.trafficCondition) ^ hash<string>()(state.weatherCondition) ^
+               hash<bool>()(state.vehicleAvailable) ^ hash<bool>()(state.personnelAvailable);
+    }
+};
 
-    # Step 5: Run an ADP iteration (single episode)
-    def run_episode(self):
-        current_state = tuple(self.states[np.random.randint(len(self.states))])
-        total_reward = 0
+// Define a structure for action
+struct Action {
+    int delay;  // Delay in minutes
+};
 
-        for _ in range(10):  # Run for a fixed number of steps
-            actions = self.possible_actions(current_state)
-            action = np.random.choice(actions)  # Choose an action (explore/exploit could be added here)
-            reward = self.reward(current_state, action)
-            total_reward += reward
+// Reward function
+int rewardFunction(const State& state, const Action& action) {
+    int penalty = action.delay;  // Penalize based on delay
+    if (state.trafficCondition == "Heavy") penalty += 20;
+    if (state.weatherCondition == "Rain" || state.weatherCondition == "Fog") penalty += 15;
+    if (!state.vehicleAvailable) penalty += 25;
+    if (!state.personnelAvailable) penalty += 10;
 
-            # Observe next state and update value function
-            next_state = self.transition(current_state, action)
-            next_state_tuple = tuple(next_state)
+    return -penalty;  // Minimize penalty (maximize reward)
+}
 
-            # Update V(s) using ADP value function update
-            self.value_function[current_state] += self.alpha * (reward + self.gamma * self.value_function.get(next_state_tuple, 0) - self.value_function[current_state])
+// Policy improvement using ADP
+Action policyImprovement(const State& state, unordered_map<State, int, StateHasher>& valueFunction) {
+    vector<Action> actions = {{0}, {10}, {20}, {30}};  // Possible delays
+    Action bestAction = actions[0];
+    int bestValue = rewardFunction(state, bestAction);
 
-            # Update policy to choose the action with the highest estimated value
-            best_action = max(actions, key=lambda a: self.value_function.get(next_state_tuple, 0))
-            self.policy[current_state] = best_action
+    for (const auto& action : actions) {
+        int value = rewardFunction(state, action);
+        if (value > bestValue) {
+            bestValue = value;
+            bestAction = action;
+        }
+    }
 
-            # Move to the next state
-            current_state = next_state_tuple
+    valueFunction[state] = bestValue;  // Update value function
+    return bestAction;
+}
 
-        return total_reward
+// Adaptive Dynamic Programming function with iterative policy evaluation
+void adaptiveDynamicProgramming(vector<State>& states, int iterations = 10) {
+    unordered_map<State, int, StateHasher> valueFunction;
 
-    # Step 6: Run multiple episodes to improve policy and value function
-    def train(self, episodes=100):
-        rewards = []
-        for episode in range(episodes):
-            episode_reward = self.run_episode()
-            rewards.append(episode_reward)
-        return rewards
+    // Iterate over several rounds to improve policy
+    for (int iter = 0; iter < iterations; ++iter) {
+        cout << "Iteration: " << iter + 1 << endl;
+
+        for (const auto& state : states) {
+            Action bestAction = policyImprovement(state, valueFunction);
+            cout << "Optimal delay for flight from " << state.origin << " to "
+                 << state.destination << " in iteration " << iter + 1 << " is: "
+                 << bestAction.delay << " minutes with reward: " << valueFunction[state] << endl;
+        }
+        cout << "----------------------------------" << endl;
+    }
+}
+
+int main() {
+    ifstream file("C:\\Users\\Karina Amalia H\\Downloads\\DATA2 (1).csv");  // Adjust the path as necessary
+    string line;
+    vector<State> states;
+
+    // Check if file is open
+    if (!file.is_open()) {
+        cerr << "Error opening file!" << endl;
+        return 1;
+    }
+
+    // Skip the header line if needed
+    getline(file, line);
+
+    // Read the data line by line
+    while (getline(file, line)) {
+        stringstream s(line);
+        State state;
+        string runwayTimeStr, estimatedTimeStr;
+        string vehicle, personnel;
+
+        getline(s, state.origin, ',');
+        getline(s, state.transit, ',');
+        getline(s, state.destination, ',');
+        getline(s, state.maskapai, ',');
+        getline(s, state.daerahTujuan, ',');
+        getline(s, state.trafficCondition, ',');
+        getline(s, state.weatherCondition, ',');
+        getline(s, vehicle, ',');
+        getline(s, personnel, ',');
+        getline(s, state.additionalNotes, ',');
+        getline(s, runwayTimeStr, ',');
+        getline(s, estimatedTimeStr, ',');
+
+        state.vehicleAvailable = (vehicle == "yes");
+        state.personnelAvailable = (personnel == "yes");
+
+        // Parse estimated time values
+        if (!runwayTimeStr.empty()) {
+            state.runwayOccupancyTime = stoi(runwayTimeStr);
+        } else {
+            state.runwayOccupancyTime = 0;  // Default or handle missing data
+        }
+
+        if (!estimatedTimeStr.empty()) {
+            size_t hoursPos = estimatedTimeStr.find("jam");
+            size_t minutesPos = estimatedTimeStr.find("menit");
+            int hours = 0, minutes = 0;
+            if (hoursPos != string::npos) {
+                hours = stoi(estimatedTimeStr.substr(0, hoursPos));
+            }
+            if (minutesPos != string::npos) {
+                minutes = stoi(estimatedTimeStr.substr(hoursPos + 3, minutesPos - hoursPos - 3));
+            }
+            state.estimatedTime = hours * 60 + minutes;
+        } else {
+            state.estimatedTime = 0;  // Default or handle missing data
+        }
+
+        // Add to states vector
+        states.push_back(state);
+    }
+
+    adaptiveDynamicProgramming(states);
+
+    return 0;
+}
