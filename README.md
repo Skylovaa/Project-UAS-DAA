@@ -16,7 +16,7 @@ ADP, which incorporates reinforcement learning, is proposed as an effective solu
 This research can still be developed because in terms of weather, but somedays if we want to devolop can develop it again for the future.
 more related and can be connected to the weather forecast application. then with the traffic we can see that with the flight conditions we can find the average, approximately the right and effective time to see the conditions where the traffic conditions are like and others. 🚀✍️
 
-Our Team 👩‍💻👨‍💻
+# Our Team 👩‍💻👨‍💻
 - **[joyeaudia](joyeaudia752265@gmail.com)**
 - **[Karina Amalia Herfery](karinaamalia10@gmail.com)**
 - **[Kayla Fahkira](kaylafakhira07@gmail.com)**
