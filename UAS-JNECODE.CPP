@@ -59,6 +59,7 @@ struct DeliveryState {
     }
 };
 
+
 // Fungsi untuk menghapus spasi ekstra
 string trim(const string& str) {
     size_t first = str.find_first_not_of(" \t\n\r");
@@ -99,7 +100,7 @@ vector<pair<DeliveryState, int>> readCSV(const string& filename) {
         getline(ss, value, ','); 
         try {
             flight.EstimatedTime_menit = stoi(trim(value));
-        } catch (const std::invalid_argument& e) {
+        } catch (const invalid_argument& e) {
             cerr << "Invalid EstimatedTime_menit value: " << value << endl;
             flight.EstimatedTime_menit = 0;
         }
@@ -108,7 +109,7 @@ vector<pair<DeliveryState, int>> readCSV(const string& filename) {
         getline(ss, value); 
         try {
             flight.RunawayOccupancyTime = stoi(trim(value));
-        } catch (const std:: invalid_argument& e) {
+        } catch (const  invalid_argument& e) {
             cerr << "Invalid RunawayOccupancyTime value: " << value << endl;
             flight.RunawayOccupancyTime = 0;
         }
@@ -138,10 +139,12 @@ void displayFlightInfo(const DeliveryState& flight, int lineNumber, const string
     cout << "Traffic Condition        : " << flight.TrafficCondition << endl;
     cout << "Weather Condition        : " << flight.WeatherCondition << endl;
     cout << "Vehicle Available        : " << (flight.VehicleAvailable ? "Yes" : "No") << endl;
-
+    cout << "Personel Available       : " << (flight.PersonelAvailable  ? "Yes" : "No") << endl;
+    
     int totalEstimatedTime = flight.totalScore(historicalData);
     int hours = totalEstimatedTime / 60;
     int minutes = totalEstimatedTime % 60;
+    cout << "Runway Occupancy Time    : " << flight.RunawayOccupancyTime << " minutes" << endl; // Menambahkan informasi Runway Occupancy Time
     cout << "Estimated Time (minutes) : " << flight.EstimatedTime_menit << " minutes" << endl;
     cout << "Estimated Time (specific) : " << hours << " jam " << minutes << " menit" << endl;
     cout << "Additional Notes         : " << flight.AdditionalNotes << endl;
@@ -212,72 +215,70 @@ int main() {
         }
     }
 
-    if (!found) {
-        cout << "Tidak ada penerbangan yang ditemukan untuk kota tujuan: " << destinationInput << endl;
-    } else {
-        cout << "JUMBLAH PENERBANGAN YANG DI TEMUKAN  : " << totalFlightsFound << endl;
+   if (!found) {
+    cout << "Tidak ada penerbangan yang ditemukan untuk kota tujuan: " << destinationInput << endl;
+} else {
+    cout << "JUMBLAH PENERBANGAN YANG DITEMUKAN: " << totalFlightsFound << endl;
 
-        // Menampilkan penerbangan terbaik untuk setiap Origin
-        cout << "=================================================\n";
-        cout << "PENERBANGAN TERBAIK UNTUK SETIAP ORIGIN " << endl;
-        cout << "=================================================\n";
+    // Menampilkan penerbangan terbaik untuk setiap Origin
+    cout << "=================================================\n";
+    cout << "PENERBANGAN TERBAIK UNTUK SETIAP ORIGIN\n";
+    cout << "=================================================\n";
 
-        string transitFromJakarta;
-        map<string, string> bestEstimatedTimeMap; 
-        map<string, int> totalTimeByOrigin;  // Untuk menyimpan total waktu berdasarkan asal
-        map<string, string> bestTransitForDestination;  // Untuk menyimpan transit terbaik berdasarkan waktu tercepat
+    map<string, int> totalTimeByOrigin; // Menyimpan total waktu berdasarkan asal
 
-        for (const auto& entry : bestFlights) {
-            int totalEstimatedTime = entry.second.first.totalScore(historicalData); // Waktu total menggunakan totalScore()
-            string origin = entry.first.substr(0, entry.first.find('-')); // Mendapatkan origin dari key
-            string destination = entry.first.substr(entry.first.find('-') + 1); // Mendapatkan transit dari key
+    for (const auto& entry : bestFlights) {
+        int totalEstimatedTime = entry.second.first.totalScore(historicalData); // Waktu total dengan totalScore()
+        string origin = entry.first.substr(0, entry.first.find('-'));           // Mendapatkan asal dari key
+        string destination = entry.first.substr(entry.first.find('-') + 1);    // Mendapatkan tujuan dari key
 
-            // Jika asal adalah Jakarta(CGK), tambahkan waktu ke tujuan dan cari transit terbaik
-            if (origin == "Jakarta(CGK)") {
-                transitFromJakarta = destination; 
-                displayFlightInfo(entry.second.first, entry.second.second, "Best Flight from " + origin + " to " + destination, historicalData);
-                bestJakartaFlights.push_back(entry.second);
-                bestEstimatedTimeMap[transitFromJakarta] = entry.second.first.EstimatedTime_spesifik;
-
-                // Men yimpan waktu total penerbangan untuk tujuan
-                totalTimeByOrigin[destination] += totalEstimatedTime;
-            } else {
-                displayFlightInfo(entry.second.first, entry.second.second, "Best Flight from " + origin + " to " + destination, historicalData);
-
-                // Menyimpan waktu total penerbangan untuk tujuan
-                totalTimeByOrigin[destination] += totalEstimatedTime;
-            }
+        // Jika asal adalah Jakarta(CGK), tambahkan waktu ke tujuan tetapi jangan tampilkan Jakarta
+        if (origin == "Jakarta(CGK)") {
+            totalTimeByOrigin[destination] += totalEstimatedTime; // Waktu ditambahkan untuk tujuan
+        } else {
+            totalTimeByOrigin[origin] += totalEstimatedTime; // Waktu ditambahkan seperti biasa
         }
 
-        // Menampilkan hasil penjumlahan waktu berdasarkan asal
-        cout << "\nHasil Penjumlahan Waktu Penerbangan berdasarkan Transit :" << endl;
+        // Menampilkan informasi penerbangan
+        displayFlightInfo(entry.second.first, entry.second.second, 
+                          "Best Flight from " + origin + " to " + destination, historicalData);
+    }
 
-        // Untuk mencari transit terbaik berdasarkan waktu tercepat
-        int minTime = INT_MAX;
-        string bestTransitDestination;
+    // Menampilkan hasil penjumlahan waktu berdasarkan asal
+    cout << "\nHasil Penjumlahan Waktu Penerbangan Berdasarkan Asal:\n";
 
-        // Menghitung waktu transit terbaik untuk setiap tujuan
-        for (const auto& entry : totalTimeByOrigin) {
+    for (const auto& entry : totalTimeByOrigin) {
+        // Jakarta(CGK) tidak ditampilkan
+        if (entry.first != "Jakarta(CGK)") {
             int totalEstimatedTime = entry.second;
             int hours = totalEstimatedTime / 60;
             int minutes = totalEstimatedTime % 60;
 
-            cout << "Transit : " << entry.first << " : " << hours << " jam " << minutes << " menit" << endl;
-
-            // Mencari transit dengan waktu tercepat
-            if (totalEstimatedTime < minTime) {
-                minTime = totalEstimatedTime;
-                bestTransitDestination = entry.first;
-            }
-        }
-
-        // Menampilkan Transit terbaik berdasarkan waktu tercepat
-        if (!bestTransitDestination.empty()) {
-            int bestHours = minTime / 60;
-            int bestMinutes = minTime % 60;
-            cout << "\nTransit terbaik " << bestTransitDestination << " : " << bestHours << " jam " << bestMinutes << " menit" << endl;
+            cout << "Asal: " << entry.first << " : " << hours << " jam " << minutes << " menit" << endl;
         }
     }
 
-    return 0;
+    // Menampilkan transit terbaik (waktu tercepat)
+    cout << "\nTransit Terbaik Berdasarkan Waktu Tercepat:\n";
+    int minTime = INT_MAX;
+    string bestTransitDestination;
+
+    for (const auto& entry : totalTimeByOrigin) {
+        // Jakarta(CGK) tetap diproses untuk mencari waktu tercepat, tetapi tidak ditampilkan di hasil
+        int totalEstimatedTime = entry.second;
+        if (totalEstimatedTime < minTime) {
+            minTime = totalEstimatedTime;
+            bestTransitDestination = entry.first;
+        }
+    }
+
+    if (!bestTransitDestination.empty()) {
+        int bestHours = minTime / 60;
+        int bestMinutes = minTime % 60;
+        cout << "Transit terbaik: " << bestTransitDestination 
+             << " dengan waktu " << bestHours << " jam " << bestMinutes << " menit\n";
+    }
+}
+
+return 0;
 }
