@@ -1,0 +1,371 @@
+Origin,Transit,Airport,Airlines,Destination,Traffic Condition,Weather Condition,Vehicle Available,Personel Available,Runway Occupancy Time,Estimated Time menit,Estimated Time spesifik
+Jakarta(CGK),Langsung,Sultan Iskandar Muda I. Airport (BTJ),Lion Air,Aceh,Moderate,Rain,YESS,NOO,108,368,6 jam 8 menit
+Jakarta(CGK),Langsung,Sultan Iskandar Muda I. Airport (BTJ),Sriwijaya Air,Aceh,Normal,Fog,YESS,NOO,54,144,2 jam 24 menit
+Jakarta(CGK),Langsung,Sultan Iskandar Muda I. Airport (BTJ),Citilink,Aceh,Moderate,Partly Cloudy,NOO,NOO,95,316,5 jam 16 menit
+Jakarta(CGK),Langsung,Sultan Iskandar Muda I. Airport (BTJ),AirAsia,Aceh,Normal,Partly Cloudy,NOO,NOO,86,337,5 jam 37 menit
+Jakarta(CGK),Langsung,Sultan Iskandar Muda I. Airport (BTJ),Garuda Indonesia,Aceh,Heavy,Rain,NOO,NOO,86,429,7 jam 9 menit
+Jakarta(CGK),Medan (KNO),Sultan Iskandar Muda I. Airport (BTJ),Lion Air,Aceh,Heavy,Partly Cloudy,NOO,NOO,87,310,5 jam 10 menit
+Jakarta(CGK),Medan (KNO),Sultan Iskandar Muda I. Airport (BTJ),Sriwijaya Air,Aceh,Heavy,Partly Cloudy,YESS,NOO,92,239,3 jam 59 menit
+Jakarta(CGK),Medan (KNO),Sultan Iskandar Muda I. Airport (BTJ),Citilink,Aceh,Moderate,Fog,YESS,YESS,84,227,3 jam 47 menit
+Jakarta(CGK),Medan (KNO),Sultan Iskandar Muda I. Airport (BTJ),AirAsia,Aceh,Normal,Clear,YESS,YESS,86,226,3 jam 46 menit
+Jakarta(CGK),Medan (KNO),Sultan Iskandar Muda I. Airport (BTJ),Garuda Indonesia,Aceh,Heavy,Fog,NOO,NOO,119,169,2 jam 49 menit
+Jakarta(CGK),Langsung,Kualanamu International Airport (KNO),Lion Air,Sumatera Utara,Heavy,Clear,YESS,NOO,85,334,5 jam 34 menit
+Jakarta(CGK),Langsung,Kualanamu International Airport (KNO),Sriwijaya Air,Sumatera Utara,Moderate,Clear,NOO,NOO,116,226,3 jam 46 menit
+Jakarta(CGK),Langsung,Kualanamu International Airport (KNO),Citilink,Sumatera Utara,Moderate,Clear,YESS,YESS,58,343,5 jam 43 menit
+Jakarta(CGK),Langsung,Kualanamu International Airport (KNO),AirAsia,Sumatera Utara,Heavy,Fog,NOO,YESS,100,236,3 jam 56 menit
+Jakarta(CGK),Langsung,Kualanamu International Airport (KNO),Garuda Indonesia,Sumatera Utara,Moderate,Fog,YESS,NOO,84,433,7 jam 13 menit
+Jakarta(CGK),Padang (PDG),Kualanamu International Airport (KNO),Lion Air,Sumatera Utara,Heavy,Clear,YESS,YESS,103,428,7 jam 8 menit
+Jakarta(CGK),Padang (PDG),Kualanamu International Airport (KNO),Sriwijaya Air,Sumatera Utara,Normal,Rain,NOO,NOO,120,339,5 jam 39 menit
+Jakarta(CGK),Padang (PDG),Kualanamu International Airport (KNO),Citilink,Sumatera Utara,Moderate,Fog,NOO,NOO,92,299,4 jam 59 menit
+Jakarta(CGK),Padang (PDG),Kualanamu International Airport (KNO),AirAsia,Sumatera Utara,Moderate,Clear,NOO,NOO,69,401,6 jam 41 menit
+Jakarta(CGK),Padang (PDG),Kualanamu International Airport (KNO),Garuda Indonesia,Sumatera Utara,Moderate,Rain,YESS,NOO,114,412,6 jam 52 menit
+Jakarta(CGK),Langsung,Minangkabau International Airport (PDG),Lion Air,Sumatera Barat,Heavy,Rain,NOO,NOO,97,248,4 jam 8 menit
+Jakarta(CGK),Langsung,Minangkabau International Airport (PDG),Sriwijaya Air,Sumatera Barat,Heavy,Clear,YESS,YESS,94,322,5 jam 22 menit
+Jakarta(CGK),Langsung,Minangkabau International Airport (PDG),Citilink,Sumatera Barat,Normal,Rain,YESS,NOO,57,159,2 jam 39 menit
+Jakarta(CGK),Langsung,Minangkabau International Airport (PDG),AirAsia,Sumatera Barat,Moderate,Partly Cloudy,NOO,NOO,105,278,4 jam 38 menit
+Jakarta(CGK),Langsung,Minangkabau International Airport (PDG),Garuda Indonesia,Sumatera Barat,Moderate,Fog,YESS,NOO,83,182,3 jam 2 menit
+Jakarta(CGK),Medan (KNO),Minangkabau International Airport (PDG),Lion Air,Sumatera Barat,Heavy,Clear,YESS,YESS,66,280,4 jam 40 menit
+Jakarta(CGK),Medan (KNO),Minangkabau International Airport (PDG),Sriwijaya Air,Sumatera Barat,Moderate,Clear,NOO,NOO,66,165,2 jam 45 menit
+Jakarta(CGK),Medan (KNO),Minangkabau International Airport (PDG),Citilink,Sumatera Barat,Normal,Clear,YESS,YESS,55,241,4 jam 1 menit
+Jakarta(CGK),Medan (KNO),Minangkabau International Airport (PDG),AirAsia,Sumatera Barat,Moderate,Partly Cloudy,YESS,NOO,113,178,2 jam 58 menit
+Jakarta(CGK),Medan (KNO),Minangkabau International Airport (PDG),Garuda Indonesia,Sumatera Barat,Moderate,Fog,NOO,NOO,113,192,3 jam 12 menit
+Jakarta(CGK),Langsung,Sultan Syarif Kasim II International Airport (PKU),Lion Air,Riau,Heavy,Clear,NOO,YESS,109,352,5 jam 52 menit
+Jakarta(CGK),Langsung,Sultan Syarif Kasim II International Airport (PKU),Sriwijaya Air,Riau,Moderate,Fog,NOO,YESS,78,240,4 jam 0 menit
+Jakarta(CGK),Langsung,Sultan Syarif Kasim II International Airport (PKU),Citilink,Riau,Moderate,Rain,NOO,NOO,106,332,5 jam 32 menit
+Jakarta(CGK),Langsung,Sultan Syarif Kasim II International Airport (PKU),AirAsia,Riau,Moderate,Clear,YESS,NOO,102,395,6 jam 35 menit
+Jakarta(CGK),Langsung,Sultan Syarif Kasim II International Airport (PKU),Garuda Indonesia,Riau,Heavy,Clear,YESS,YESS,103,270,4 jam 30 menit
+Jakarta(CGK),Pekanbaru (PKU),Sultan Syarif Kasim II International Airport (PKU),Lion Air,Riau,Moderate,Rain,NOO,YESS,96,221,3 jam 41 menit
+Jakarta(CGK),Pekanbaru (PKU),Sultan Syarif Kasim II International Airport (PKU),Sriwijaya Air,Riau,Moderate,Rain,NOO,NOO,89,319,5 jam 19 menit
+Jakarta(CGK),Pekanbaru (PKU),Sultan Syarif Kasim II International Airport (PKU),Citilink,Riau,Moderate,Fog,NOO,YESS,60,204,3 jam 24 menit
+Jakarta(CGK),Pekanbaru (PKU),Sultan Syarif Kasim II International Airport (PKU),AirAsia,Riau,Moderate,Partly Cloudy,NOO,NOO,116,363,6 jam 3 menit
+Jakarta(CGK),Pekanbaru (PKU),Sultan Syarif Kasim II International Airport (PKU),Garuda Indonesia,Riau,Moderate,Fog,YESS,NOO,111,129,2 jam 9 menit
+Jakarta(CGK),Langsung,Raja Haji Fisabilillah Airport (TNJ),Lion Air,Kepulauan Riau,Heavy,Clear,NOO,NOO,104,361,6 jam 1 menit
+Jakarta(CGK),Langsung,Raja Haji Fisabilillah Airport (TNJ),Sriwijaya Air,Kepulauan Riau,Heavy,Fog,YESS,NOO,71,204,3 jam 24 menit
+Jakarta(CGK),Langsung,Raja Haji Fisabilillah Airport (TNJ),Citilink,Kepulauan Riau,Moderate,Clear,YESS,YESS,55,276,4 jam 36 menit
+Jakarta(CGK),Langsung,Raja Haji Fisabilillah Airport (TNJ),AirAsia,Kepulauan Riau,Moderate,Fog,YESS,YESS,73,437,7 jam 17 menit
+Jakarta(CGK),Langsung,Raja Haji Fisabilillah Airport (TNJ),Garuda Indonesia,Kepulauan Riau,Moderate,Clear,YESS,NOO,60,435,7 jam 15 menit
+Jakarta(CGK),Batam (BTH),Raja Haji Fisabilillah Airport (TNJ),Lion Air,Kepulauan Riau,Moderate,Fog,NOO,NOO,80,427,7 jam 7 menit
+Jakarta(CGK),Batam (BTH),Raja Haji Fisabilillah Airport (TNJ),Sriwijaya Air,Kepulauan Riau,Moderate,Fog,YESS,YESS,75,251,4 jam 11 menit
+Jakarta(CGK),Batam (BTH),Raja Haji Fisabilillah Airport (TNJ),Citilink,Kepulauan Riau,Heavy,Rain,NOO,NOO,71,350,5 jam 50 menit
+Jakarta(CGK),Batam (BTH),Raja Haji Fisabilillah Airport (TNJ),AirAsia,Kepulauan Riau,Normal,Clear,NOO,NOO,110,154,2 jam 34 menit
+Jakarta(CGK),Batam (BTH),Raja Haji Fisabilillah Airport (TNJ),Garuda Indonesia,Kepulauan Riau,Normal,Partly Cloudy,NOO,YESS,104,223,3 jam 43 menit
+Jakarta(CGK),Palembang (PLM),Sultan Thaha Airport (DJB),Lion Air,Jambi,Moderate,Clear,YESS,YESS,100,189,3 jam 9 menit
+Jakarta(CGK),Palembang (PLM),Sultan Thaha Airport (DJB),Sriwijaya Air,Jambi,Moderate,Partly Cloudy,YESS,YESS,64,333,5 jam 33 menit
+Jakarta(CGK),Palembang (PLM),Sultan Thaha Airport (DJB),Citilink,Jambi,Moderate,Partly Cloudy,NOO,YESS,55,187,3 jam 7 menit
+Jakarta(CGK),Palembang (PLM),Sultan Thaha Airport (DJB),AirAsia,Jambi,Heavy,Partly Cloudy,YESS,NOO,92,280,4 jam 40 menit
+Jakarta(CGK),Palembang (PLM),Sultan Thaha Airport (DJB),Garuda Indonesia,Jambi,Normal,Clear,NOO,NOO,117,377,6 jam 17 menit
+Jakarta(CGK),Medan (KNO),Sultan Thaha Airport (DJB),Lion Air,Jambi,Moderate,Rain,YESS,NOO,81,192,3 jam 12 menit
+Jakarta(CGK),Medan (KNO),Sultan Thaha Airport (DJB),Sriwijaya Air,Jambi,Heavy,Partly Cloudy,NOO,YESS,92,164,2 jam 44 menit
+Jakarta(CGK),Medan (KNO),Sultan Thaha Airport (DJB),Citilink,Jambi,Heavy,Fog,YESS,NOO,68,147,2 jam 27 menit
+Jakarta(CGK),Medan (KNO),Sultan Thaha Airport (DJB),AirAsia,Jambi,Moderate,Clear,NOO,YESS,120,283,4 jam 43 menit
+Jakarta(CGK),Medan (KNO),Sultan Thaha Airport (DJB),Garuda Indonesia,Jambi,Moderate,Partly Cloudy,NOO,YESS,105,252,4 jam 12 menit
+Jakarta(CGK),Langsung,Sultan Mahmud Badaruddin II International Airport (PLM),Lion Air,Sumatera Selatan,Moderate,Rain,YESS,NOO,69,297,4 jam 57 menit
+Jakarta(CGK),Langsung,Sultan Mahmud Badaruddin II International Airport (PLM),Sriwijaya Air,Sumatera Selatan,Moderate,Rain,YESS,NOO,114,185,3 jam 5 menit
+Jakarta(CGK),Langsung,Sultan Mahmud Badaruddin II International Airport (PLM),Citilink,Sumatera Selatan,Normal,Rain,YESS,NOO,94,312,5 jam 12 menit
+Jakarta(CGK),Langsung,Sultan Mahmud Badaruddin II International Airport (PLM),AirAsia,Sumatera Selatan,Moderate,Partly Cloudy,NOO,NOO,98,199,3 jam 19 menit
+Jakarta(CGK),Langsung,Sultan Mahmud Badaruddin II International Airport (PLM),Garuda Indonesia,Sumatera Selatan,Moderate,Clear,NOO,NOO,63,238,3 jam 58 menit
+Jakarta(CGK),Palembang (PLM),Sultan Mahmud Badaruddin II International Airport (PLM),Lion Air,Sumatera Selatan,Moderate,Rain,NOO,NOO,117,297,4 jam 57 menit
+Jakarta(CGK),Palembang (PLM),Sultan Mahmud Badaruddin II International Airport (PLM),Sriwijaya Air,Sumatera Selatan,Moderate,Fog,NOO,YESS,81,166,2 jam 46 menit
+Jakarta(CGK),Palembang (PLM),Sultan Mahmud Badaruddin II International Airport (PLM),Citilink,Sumatera Selatan,Normal,Partly Cloudy,NOO,YESS,104,432,7 jam 12 menit
+Jakarta(CGK),Palembang (PLM),Sultan Mahmud Badaruddin II International Airport (PLM),AirAsia,Sumatera Selatan,Moderate,Clear,NOO,NOO,118,204,3 jam 24 menit
+Jakarta(CGK),Palembang (PLM),Sultan Mahmud Badaruddin II International Airport (PLM),Garuda Indonesia,Sumatera Selatan,Moderate,Rain,YESS,NOO,71,407,6 jam 47 menit
+Jakarta(CGK),Langsung,Depati Amir Airport (PGK),Lion Air,Bangka Belitung,Heavy,Rain,NOO,NOO,104,270,4 jam 30 menit
+Jakarta(CGK),Langsung,Depati Amir Airport (PGK),Sriwijaya Air,Bangka Belitung,Normal,Rain,YESS,NOO,118,412,6 jam 52 menit
+Jakarta(CGK),Langsung,Depati Amir Airport (PGK),Citilink,Bangka Belitung,Moderate,Rain,NOO,YESS,92,291,4 jam 51 menit
+Jakarta(CGK),Langsung,Depati Amir Airport (PGK),AirAsia,Bangka Belitung,Moderate,Rain,NOO,NOO,110,314,5 jam 14 menit
+Jakarta(CGK),Langsung,Depati Amir Airport (PGK),Garuda Indonesia,Bangka Belitung,Heavy,Rain,YESS,YESS,84,276,4 jam 36 menit
+Jakarta(CGK),Palembang (PLM),Depati Amir Airport (PGK),Lion Air,Bangka Belitung,Moderate,Fog,NOO,NOO,83,204,3 jam 24 menit
+Jakarta(CGK),Palembang (PLM),Depati Amir Airport (PGK),Sriwijaya Air,Bangka Belitung,Heavy,Partly Cloudy,YESS,YESS,96,206,3 jam 26 menit
+Jakarta(CGK),Palembang (PLM),Depati Amir Airport (PGK),Citilink,Bangka Belitung,Moderate,Partly Cloudy,YESS,YESS,60,324,5 jam 24 menit
+Jakarta(CGK),Palembang (PLM),Depati Amir Airport (PGK),AirAsia,Bangka Belitung,Normal,Rain,NOO,NOO,114,314,5 jam 14 menit
+Jakarta(CGK),Palembang (PLM),Depati Amir Airport (PGK),Garuda Indonesia,Bangka Belitung,Moderate,Partly Cloudy,NOO,YESS,119,205,3 jam 25 menit
+Jakarta(CGK),Medan (KNO),Fatmawati Soekarno Airport (BKS),Lion Air,Bengkulu,Normal,Partly Cloudy,NOO,NOO,87,166,2 jam 46 menit
+Jakarta(CGK),Medan (KNO),Fatmawati Soekarno Airport (BKS),Sriwijaya Air,Bengkulu,Heavy,Clear,NOO,NOO,71,182,3 jam 2 menit
+Jakarta(CGK),Medan (KNO),Fatmawati Soekarno Airport (BKS),Citilink,Bengkulu,Moderate,Rain,NOO,YESS,109,338,5 jam 38 menit
+Jakarta(CGK),Medan (KNO),Fatmawati Soekarno Airport (BKS),AirAsia,Bengkulu,Moderate,Rain,YESS,NOO,93,184,3 jam 4 menit
+Jakarta(CGK),Medan (KNO),Fatmawati Soekarno Airport (BKS),Garuda Indonesia,Bengkulu,Moderate,Fog,NOO,YESS,118,189,3 jam 9 menit
+Jakarta(CGK),Palembang (PLM),Fatmawati Soekarno Airport (BKS),Lion Air,Bengkulu,Normal,Fog,NOO,YESS,86,284,4 jam 44 menit
+Jakarta(CGK),Palembang (PLM),Fatmawati Soekarno Airport (BKS),Sriwijaya Air,Bengkulu,Normal,Partly Cloudy,YESS,YESS,116,133,2 jam 13 menit
+Jakarta(CGK),Palembang (PLM),Fatmawati Soekarno Airport (BKS),Citilink,Bengkulu,Moderate,Fog,NOO,YESS,60,231,3 jam 51 menit
+Jakarta(CGK),Palembang (PLM),Fatmawati Soekarno Airport (BKS),AirAsia,Bengkulu,Moderate,Fog,YESS,NOO,62,199,3 jam 19 menit
+Jakarta(CGK),Palembang (PLM),Fatmawati Soekarno Airport (BKS),Garuda Indonesia,Bengkulu,Heavy,Fog,NOO,NOO,75,423,7 jam 3 menit
+Jakarta(CGK),Langsung,Radin Inten II Airport (TKG),Lion Air,Lampung,Heavy,Rain,YESS,NOO,69,276,4 jam 36 menit
+Jakarta(CGK),Langsung,Radin Inten II Airport (TKG),Sriwijaya Air,Lampung,Normal,Rain,YESS,NOO,75,313,5 jam 13 menit
+Jakarta(CGK),Langsung,Radin Inten II Airport (TKG),Citilink,Lampung,Heavy,Partly Cloudy,YESS,YESS,62,243,4 jam 3 menit
+Jakarta(CGK),Langsung,Radin Inten II Airport (TKG),AirAsia,Lampung,Heavy,Rain,NOO,NOO,81,341,5 jam 41 menit
+Jakarta(CGK),Langsung,Radin Inten II Airport (TKG),Garuda Indonesia,Lampung,Moderate,Partly Cloudy,NOO,YESS,109,352,5 jam 52 menit
+Jakarta(CGK),Palembang (PLM),Radin Inten II Airport (TKG),Lion Air,Lampung,Heavy,Partly Cloudy,NOO,NOO,55,189,3 jam 9 menit
+Jakarta(CGK),Palembang (PLM),Radin Inten II Airport (TKG),Sriwijaya Air,Lampung,Normal,Rain,YESS,YESS,112,268,4 jam 28 menit
+Jakarta(CGK),Palembang (PLM),Radin Inten II Airport (TKG),Citilink,Lampung,Moderate,Clear,YESS,YESS,112,245,4 jam 5 menit
+Jakarta(CGK),Palembang (PLM),Radin Inten II Airport (TKG),AirAsia,Lampung,Heavy,Partly Cloudy,NOO,NOO,102,144,2 jam 24 menit
+Jakarta(CGK),Palembang (PLM),Radin Inten II Airport (TKG),Garuda Indonesia,Lampung,Heavy,Rain,YESS,YESS,70,344,5 jam 44 menit
+Jakarta(CGK),Langsung,Husein Sastranegara International Airport (BDO),Lion Air,Jawa Barat,Heavy,Rain,YESS,NOO,66,153,2 jam 33 menit
+Jakarta(CGK),Langsung,Husein Sastranegara International Airport (BDO),Sriwijaya Air,Jawa Barat,Heavy,Clear,NOO,NOO,109,205,3 jam 25 menit
+Jakarta(CGK),Langsung,Husein Sastranegara International Airport (BDO),Citilink,Jawa Barat,Heavy,Clear,NOO,NOO,113,416,6 jam 56 menit
+Jakarta(CGK),Langsung,Husein Sastranegara International Airport (BDO),AirAsia,Jawa Barat,Moderate,Rain,YESS,NOO,76,157,2 jam 37 menit
+Jakarta(CGK),Langsung,Husein Sastranegara International Airport (BDO),Garuda Indonesia,Jawa Barat,Moderate,Partly Cloudy,NOO,YESS,112,415,6 jam 55 menit
+Jakarta(CGK),Bandung (BDO),Husein Sastranegara International Airport (BDO),Lion Air,Jawa Barat,Moderate,Clear,YESS,NOO,61,170,2 jam 50 menit
+Jakarta(CGK),Bandung (BDO),Husein Sastranegara International Airport (BDO),Sriwijaya Air,Jawa Barat,Moderate,Fog,NOO,NOO,100,350,5 jam 50 menit
+Jakarta(CGK),Bandung (BDO),Husein Sastranegara International Airport (BDO),Citilink,Jawa Barat,Heavy,Partly Cloudy,NOO,YESS,89,150,2 jam 30 menit
+Jakarta(CGK),Bandung (BDO),Husein Sastranegara International Airport (BDO),AirAsia,Jawa Barat,Moderate,Partly Cloudy,YESS,NOO,93,428,7 jam 8 menit
+Jakarta(CGK),Bandung (BDO),Husein Sastranegara International Airport (BDO),Garuda Indonesia,Jawa Barat,Heavy,Fog,NOO,NOO,94,137,2 jam 17 menit
+Jakarta(CGK),Langsung,Bandar Udara Budiarto(BTO),Lion Air,Banten,Moderate,Rain,YESS,NOO,119,303,5 jam 3 menit
+Jakarta(CGK),Langsung,Bandar Udara Budiarto(BTO),Sriwijaya Air,Banten,Normal,Clear,YESS,NOO,107,288,4 jam 48 menit
+Jakarta(CGK),Langsung,Bandar Udara Budiarto(BTO),Citilink,Banten,Moderate,Fog,YESS,YESS,72,290,4 jam 50 menit
+Jakarta(CGK),Langsung,Bandar Udara Budiarto(BTO),AirAsia,Banten,Normal,Fog,YESS,NOO,54,288,4 jam 48 menit
+Jakarta(CGK),Langsung,Bandar Udara Budiarto(BTO),Garuda Indonesia,Banten,Normal,Partly Cloudy,NOO,NOO,59,154,2 jam 34 menit
+Jakarta(CGK),Langsung,Ahmad Yani International Airport (SRG),Lion Air,Jawa Tengah ,Heavy,Partly Cloudy,YESS,NOO,71,158,2 jam 38 menit
+Jakarta(CGK),Langsung,Ahmad Yani International Airport (SRG),Sriwijaya Air,Jawa Tengah ,Moderate,Rain,YESS,YESS,85,177,2 jam 57 menit
+Jakarta(CGK),Langsung,Ahmad Yani International Airport (SRG),Citilink,Jawa Tengah ,Normal,Partly Cloudy,NOO,NOO,100,164,2 jam 44 menit
+Jakarta(CGK),Langsung,Ahmad Yani International Airport (SRG),AirAsia,Jawa Tengah ,Moderate,Partly Cloudy,NOO,YESS,56,247,4 jam 7 menit
+Jakarta(CGK),Langsung,Ahmad Yani International Airport (SRG),Garuda Indonesia,Jawa Tengah ,Normal,Partly Cloudy,YESS,NOO,82,336,5 jam 36 menit
+Jakarta(CGK),Semarang (SRG),Ahmad Yani International Airport (SRG),Lion Air,Jawa Tengah ,Normal,Clear,YESS,YESS,92,227,3 jam 47 menit
+Jakarta(CGK),Semarang (SRG),Ahmad Yani International Airport (SRG),Sriwijaya Air,Jawa Tengah ,Normal,Partly Cloudy,YESS,YESS,107,167,2 jam 47 menit
+Jakarta(CGK),Semarang (SRG),Ahmad Yani International Airport (SRG),Citilink,Jawa Tengah ,Moderate,Fog,YESS,YESS,106,383,6 jam 23 menit
+Jakarta(CGK),Semarang (SRG),Ahmad Yani International Airport (SRG),AirAsia,Jawa Tengah ,Moderate,Partly Cloudy,NOO,YESS,84,129,2 jam 9 menit
+Jakarta(CGK),Semarang (SRG),Ahmad Yani International Airport (SRG),Garuda Indonesia,Jawa Tengah ,Moderate,Partly Cloudy,NOO,YESS,69,438,7 jam 18 menit
+Jakarta(CGK),Langsung,Yogyakarta: Yogyakarta International Airport (YIA),Lion Air,DI Yogyakarta,Heavy,Partly Cloudy,YESS,NOO,74,417,6 jam 57 menit
+Jakarta(CGK),Langsung,Yogyakarta: Yogyakarta International Airport (YIA),Sriwijaya Air,DI Yogyakarta,Moderate,Partly Cloudy,YESS,YESS,70,436,7 jam 16 menit
+Jakarta(CGK),Langsung,Yogyakarta: Yogyakarta International Airport (YIA),Citilink,DI Yogyakarta,Heavy,Partly Cloudy,NOO,NOO,55,346,5 jam 46 menit
+Jakarta(CGK),Langsung,Yogyakarta: Yogyakarta International Airport (YIA),AirAsia,DI Yogyakarta,Moderate,Rain,NOO,YESS,99,152,2 jam 32 menit
+Jakarta(CGK),Langsung,Yogyakarta: Yogyakarta International Airport (YIA),Garuda Indonesia,DI Yogyakarta,Normal,Partly Cloudy,YESS,YESS,116,412,6 jam 52 menit
+Jakarta(CGK),Semarang (SRG),Yogyakarta: Yogyakarta International Airport (YIA),Lion Air,DI Yogyakarta,Heavy,Clear,YESS,YESS,94,159,2 jam 39 menit
+Jakarta(CGK),Semarang (SRG),Yogyakarta: Yogyakarta International Airport (YIA),Sriwijaya Air,DI Yogyakarta,Moderate,Clear,YESS,YESS,83,344,5 jam 44 menit
+Jakarta(CGK),Semarang (SRG),Yogyakarta: Yogyakarta International Airport (YIA),Citilink,DI Yogyakarta,Moderate,Fog,YESS,NOO,80,135,2 jam 15 menit
+Jakarta(CGK),Semarang (SRG),Yogyakarta: Yogyakarta International Airport (YIA),AirAsia,DI Yogyakarta,Moderate,Rain,YESS,YESS,91,437,7 jam 17 menit
+Jakarta(CGK),Semarang (SRG),Yogyakarta: Yogyakarta International Airport (YIA),Garuda Indonesia,DI Yogyakarta,Heavy,Rain,NOO,YESS,82,316,5 jam 16 menit
+Jakarta(CGK),Langsung,Juanda International Airport (SUB),Lion Air,Jawa Timur ,Moderate,Clear,YESS,NOO,109,422,7 jam 2 menit
+Jakarta(CGK),Langsung,Juanda International Airport (SUB),Sriwijaya Air,Jawa Timur ,Moderate,Rain,YESS,NOO,116,210,3 jam 30 menit
+Jakarta(CGK),Langsung,Juanda International Airport (SUB),Citilink,Jawa Timur ,Heavy,Rain,YESS,NOO,112,327,5 jam 27 menit
+Jakarta(CGK),Langsung,Juanda International Airport (SUB),AirAsia,Jawa Timur ,Heavy,Rain,YESS,YESS,71,302,5 jam 2 menit
+Jakarta(CGK),Langsung,Juanda International Airport (SUB),Garuda Indonesia,Jawa Timur ,Normal,Fog,YESS,NOO,92,313,5 jam 13 menit
+Jakarta(CGK),Denpasar (DPS),Juanda International Airport (SUB),Lion Air,Jawa Timur ,Normal,Partly Cloudy,NOO,NOO,98,195,3 jam 15 menit
+Jakarta(CGK),Denpasar (DPS),Juanda International Airport (SUB),Sriwijaya Air,Jawa Timur ,Moderate,Rain,YESS,YESS,104,273,4 jam 33 menit
+Jakarta(CGK),Denpasar (DPS),Juanda International Airport (SUB),Citilink,Jawa Timur ,Heavy,Clear,YESS,NOO,95,233,3 jam 53 menit
+Jakarta(CGK),Denpasar (DPS),Juanda International Airport (SUB),AirAsia,Jawa Timur ,Moderate,Rain,NOO,NOO,75,349,5 jam 49 menit
+Jakarta(CGK),Denpasar (DPS),Juanda International Airport (SUB),Garuda Indonesia,Jawa Timur ,Moderate,Partly Cloudy,NOO,YESS,104,301,5 jam 1 menit
+Jakarta(CGK),Langsung,Ngurah Rai International Airport (DPS),Lion Air,Bali,Normal,Fog,NOO,NOO,54,311,5 jam 11 menit
+Jakarta(CGK),Langsung,Ngurah Rai International Airport (DPS),Sriwijaya Air,Bali,Moderate,Clear,NOO,NOO,115,148,2 jam 28 menit
+Jakarta(CGK),Langsung,Ngurah Rai International Airport (DPS),Citilink,Bali,Moderate,Rain,YESS,NOO,68,401,6 jam 41 menit
+Jakarta(CGK),Langsung,Ngurah Rai International Airport (DPS),AirAsia,Bali,Heavy,Clear,NOO,YESS,102,317,5 jam 17 menit
+Jakarta(CGK),Langsung,Ngurah Rai International Airport (DPS),Garuda Indonesia,Bali,Moderate,Partly Cloudy,NOO,YESS,93,317,5 jam 17 menit
+Jakarta(CGK),Surabaya (SUB,Ngurah Rai International Airport (DPS),Lion Air,Bali,Moderate,Fog,NOO,YESS,83,422,7 jam 2 menit
+Jakarta(CGK),Surabaya (SUB,Ngurah Rai International Airport (DPS),Sriwijaya Air,Bali,Heavy,Rain,YESS,YESS,71,203,3 jam 23 menit
+Jakarta(CGK),Surabaya (SUB,Ngurah Rai International Airport (DPS),Citilink,Bali,Moderate,Rain,NOO,YESS,72,139,2 jam 19 menit
+Jakarta(CGK),Surabaya (SUB,Ngurah Rai International Airport (DPS),AirAsia,Bali,Heavy,Fog,NOO,NOO,78,371,6 jam 11 menit
+Jakarta(CGK),Surabaya (SUB,Ngurah Rai International Airport (DPS),Garuda Indonesia,Bali,Normal,Partly Cloudy,NOO,NOO,114,424,7 jam 4 menit
+Jakarta(CGK),Langsung,Lombok International Airport (LOP),Lion Air,NTB,Moderate,Rain,NOO,NOO,119,288,4 jam 48 menit
+Jakarta(CGK),Langsung,Lombok International Airport (LOP),Sriwijaya Air,NTB,Normal,Clear,NOO,NOO,55,352,5 jam 52 menit
+Jakarta(CGK),Langsung,Lombok International Airport (LOP),Citilink,NTB,Normal,Partly Cloudy,YESS,YESS,83,203,3 jam 23 menit
+Jakarta(CGK),Langsung,Lombok International Airport (LOP),AirAsia,NTB,Heavy,Clear,NOO,YESS,109,299,4 jam 59 menit
+Jakarta(CGK),Langsung,Lombok International Airport (LOP),Garuda Indonesia,NTB,Normal,Fog,NOO,NOO,105,339,5 jam 39 menit
+Jakarta(CGK),Surabaya (SUB),Lombok International Airport (LOP),Lion Air,NTB,Normal,Rain,YESS,NOO,102,249,4 jam 9 menit
+Jakarta(CGK),Surabaya (SUB),Lombok International Airport (LOP),Sriwijaya Air,NTB,Normal,Clear,NOO,YESS,74,363,6 jam 3 menit
+Jakarta(CGK),Surabaya (SUB),Lombok International Airport (LOP),Citilink,NTB,Normal,Rain,NOO,NOO,75,254,4 jam 14 menit
+Jakarta(CGK),Surabaya (SUB),Lombok International Airport (LOP),AirAsia,NTB,Heavy,Partly Cloudy,YESS,YESS,101,182,3 jam 2 menit
+Jakarta(CGK),Surabaya (SUB),Lombok International Airport (LOP),Garuda Indonesia,NTB,Moderate,Partly Cloudy,NOO,YESS,114,254,4 jam 14 menit
+Jakarta(CGK),Denpasar (DPS),El Tari Airport (KOE),Lion Air,NTT,Moderate,Rain,NOO,YESS,113,177,2 jam 57 menit
+Jakarta(CGK),Denpasar (DPS),El Tari Airport (KOE),Sriwijaya Air,NTT,Normal,Partly Cloudy,NOO,YESS,60,157,2 jam 37 menit
+Jakarta(CGK),Denpasar (DPS),El Tari Airport (KOE),Citilink,NTT,Heavy,Fog,NOO,YESS,112,263,4 jam 23 menit
+Jakarta(CGK),Denpasar (DPS),El Tari Airport (KOE),AirAsia,NTT,Normal,Rain,NOO,YESS,67,413,6 jam 53 menit
+Jakarta(CGK),Denpasar (DPS),El Tari Airport (KOE),Garuda Indonesia,NTT,Moderate,Rain,NOO,YESS,108,384,6 jam 24 menit
+Jakarta(CGK),Surabaya (SUB),El Tari Airport (KOE),Lion Air,NTT,Normal,Rain,YESS,NOO,119,308,5 jam 8 menit
+Jakarta(CGK),Surabaya (SUB),El Tari Airport (KOE),Sriwijaya Air,NTT,Moderate,Rain,YESS,NOO,89,262,4 jam 22 menit
+Jakarta(CGK),Surabaya (SUB),El Tari Airport (KOE),Citilink,NTT,Moderate,Rain,NOO,NOO,116,276,4 jam 36 menit
+Jakarta(CGK),Surabaya (SUB),El Tari Airport (KOE),AirAsia,NTT,Heavy,Fog,YESS,YESS,74,385,6 jam 25 menit
+Jakarta(CGK),Surabaya (SUB),El Tari Airport (KOE),Garuda Indonesia,NTT,Normal,Clear,NOO,NOO,85,435,7 jam 15 menit
+Jakarta(CGK),Langsung,Supadio International Airport (PNK),Lion Air,Kalimantan Barat,Normal,Clear,NOO,NOO,60,301,5 jam 1 menit
+Jakarta(CGK),Langsung,Supadio International Airport (PNK),Sriwijaya Air,Kalimantan Barat,Heavy,Fog,NOO,YESS,85,152,2 jam 32 menit
+Jakarta(CGK),Langsung,Supadio International Airport (PNK),Citilink,Kalimantan Barat,Normal,Rain,YESS,YESS,67,186,3 jam 6 menit
+Jakarta(CGK),Langsung,Supadio International Airport (PNK),AirAsia,Kalimantan Barat,Heavy,Clear,NOO,NOO,118,431,7 jam 11 menit
+Jakarta(CGK),Langsung,Supadio International Airport (PNK),Garuda Indonesia,Kalimantan Barat,Moderate,Clear,NOO,NOO,103,375,6 jam 15 menit
+Jakarta(CGK),Banjarmasin (BDJ),Supadio International Airport (PNK),Lion Air,Kalimantan Barat,Heavy,Clear,NOO,YESS,76,215,3 jam 35 menit
+Jakarta(CGK),Banjarmasin (BDJ),Supadio International Airport (PNK),Sriwijaya Air,Kalimantan Barat,Heavy,Fog,YESS,NOO,78,190,3 jam 10 menit
+Jakarta(CGK),Banjarmasin (BDJ),Supadio International Airport (PNK),Citilink,Kalimantan Barat,Heavy,Fog,NOO,NOO,58,376,6 jam 16 menit
+Jakarta(CGK),Banjarmasin (BDJ),Supadio International Airport (PNK),AirAsia,Kalimantan Barat,Normal,Rain,YESS,YESS,100,153,2 jam 33 menit
+Jakarta(CGK),Banjarmasin (BDJ),Supadio International Airport (PNK),Garuda Indonesia,Kalimantan Barat,Moderate,Rain,NOO,YESS,63,260,4 jam 20 menit
+Jakarta(CGK),Langsung,Tjilik Riwut Airport (PKY),Lion Air,Kalimantan Tengah,Heavy,Rain,YESS,NOO,58,344,5 jam 44 menit
+Jakarta(CGK),Langsung,Tjilik Riwut Airport (PKY),Sriwijaya Air,Kalimantan Tengah,Moderate,Rain,NOO,NOO,55,248,4 jam 8 menit
+Jakarta(CGK),Langsung,Tjilik Riwut Airport (PKY),Citilink,Kalimantan Tengah,Moderate,Partly Cloudy,YESS,NOO,81,187,3 jam 7 menit
+Jakarta(CGK),Langsung,Tjilik Riwut Airport (PKY),AirAsia,Kalimantan Tengah,Moderate,Partly Cloudy,YESS,NOO,78,148,2 jam 28 menit
+Jakarta(CGK),Langsung,Tjilik Riwut Airport (PKY),Garuda Indonesia,Kalimantan Tengah,Normal,Fog,NOO,YESS,105,275,4 jam 35 menit
+Jakarta(CGK),Banjarmasin (BDJ),Tjilik Riwut Airport (PKY),Lion Air,Kalimantan Tengah,Moderate,Rain,NOO,NOO,88,314,5 jam 14 menit
+Jakarta(CGK),Banjarmasin (BDJ),Tjilik Riwut Airport (PKY),Sriwijaya Air,Kalimantan Tengah,Heavy,Rain,YESS,NOO,114,150,2 jam 30 menit
+Jakarta(CGK),Banjarmasin (BDJ),Tjilik Riwut Airport (PKY),Citilink,Kalimantan Tengah,Moderate,Partly Cloudy,YESS,NOO,95,261,4 jam 21 menit
+Jakarta(CGK),Banjarmasin (BDJ),Tjilik Riwut Airport (PKY),AirAsia,Kalimantan Tengah,Moderate,Rain,NOO,YESS,93,263,4 jam 23 menit
+Jakarta(CGK),Banjarmasin (BDJ),Tjilik Riwut Airport (PKY),Garuda Indonesia,Kalimantan Tengah,Normal,Partly Cloudy,YESS,YESS,114,280,4 jam 40 menit
+Jakarta(CGK),Langsung,Syamsudin Noor International Airport (BDJ),Lion Air,Kalimantan Selatan,Heavy,Clear,YESS,YESS,61,405,6 jam 45 menit
+Jakarta(CGK),Langsung,Syamsudin Noor International Airport (BDJ),Sriwijaya Air,Kalimantan Selatan,Normal,Partly Cloudy,NOO,YESS,115,216,3 jam 36 menit
+Jakarta(CGK),Langsung,Syamsudin Noor International Airport (BDJ),Citilink,Kalimantan Selatan,Heavy,Rain,NOO,NOO,83,401,6 jam 41 menit
+Jakarta(CGK),Langsung,Syamsudin Noor International Airport (BDJ),AirAsia,Kalimantan Selatan,Moderate,Fog,NOO,YESS,102,226,3 jam 46 menit
+Jakarta(CGK),Langsung,Syamsudin Noor International Airport (BDJ),Garuda Indonesia,Kalimantan Selatan,Normal,Fog,YESS,YESS,75,249,4 jam 9 menit
+Jakarta(CGK),Makassar (UPG),Syamsudin Noor International Airport (BDJ),Lion Air,Kalimantan Selatan,Moderate,Partly Cloudy,YESS,NOO,109,316,5 jam 16 menit
+Jakarta(CGK),Makassar (UPG),Syamsudin Noor International Airport (BDJ),Sriwijaya Air,Kalimantan Selatan,Normal,Partly Cloudy,YESS,NOO,95,411,6 jam 51 menit
+Jakarta(CGK),Makassar (UPG),Syamsudin Noor International Airport (BDJ),Citilink,Kalimantan Selatan,Moderate,Clear,NOO,NOO,93,376,6 jam 16 menit
+Jakarta(CGK),Makassar (UPG),Syamsudin Noor International Airport (BDJ),AirAsia,Kalimantan Selatan,Moderate,Rain,NOO,YESS,74,389,6 jam 29 menit
+Jakarta(CGK),Makassar (UPG),Syamsudin Noor International Airport (BDJ),Garuda Indonesia,Kalimantan Selatan,Moderate,Rain,YESS,YESS,68,430,7 jam 10 menit
+Jakarta(CGK),Langsung,Aji Pangeran Tumenggung Pranoto Airport (AAP),Lion Air,Kalimantan Timur ,Moderate,Clear,YESS,NOO,56,290,4 jam 50 menit
+Jakarta(CGK),Langsung,Aji Pangeran Tumenggung Pranoto Airport (AAP),Sriwijaya Air,Kalimantan Timur ,Normal,Fog,NOO,YESS,106,376,6 jam 16 menit
+Jakarta(CGK),Langsung,Aji Pangeran Tumenggung Pranoto Airport (AAP),Citilink,Kalimantan Timur ,Heavy,Partly Cloudy,NOO,NOO,106,245,4 jam 5 menit
+Jakarta(CGK),Langsung,Aji Pangeran Tumenggung Pranoto Airport (AAP),AirAsia,Kalimantan Timur ,Heavy,Rain,NOO,YESS,65,154,2 jam 34 menit
+Jakarta(CGK),Langsung,Aji Pangeran Tumenggung Pranoto Airport (AAP),Garuda Indonesia,Kalimantan Timur ,Moderate,Partly Cloudy,YESS,NOO,59,380,6 jam 20 menit
+Jakarta(CGK),Balikpapan (BPN),Aji Pangeran Tumenggung Pranoto Airport (AAP),Lion Air,Kalimantan Timur ,Moderate,Partly Cloudy,YESS,YESS,106,352,5 jam 52 menit
+Jakarta(CGK),Balikpapan (BPN),Aji Pangeran Tumenggung Pranoto Airport (AAP),Sriwijaya Air,Kalimantan Timur ,Moderate,Partly Cloudy,YESS,NOO,76,408,6 jam 48 menit
+Jakarta(CGK),Balikpapan (BPN),Aji Pangeran Tumenggung Pranoto Airport (AAP),Citilink,Kalimantan Timur ,Moderate,Clear,NOO,NOO,106,205,3 jam 25 menit
+Jakarta(CGK),Balikpapan (BPN),Aji Pangeran Tumenggung Pranoto Airport (AAP),AirAsia,Kalimantan Timur ,Heavy,Clear,NOO,NOO,119,361,6 jam 1 menit
+Jakarta(CGK),Balikpapan (BPN),Aji Pangeran Tumenggung Pranoto Airport (AAP),Garuda Indonesia,Kalimantan Timur ,Moderate,Clear,NOO,YESS,111,348,5 jam 48 menit
+Jakarta(CGK),Balikpapan (BPN),Juwata International Airport (TRK),Lion Air,Kalimantan Utara,Moderate,Clear,NOO,YESS,55,156,2 jam 36 menit
+Jakarta(CGK),Balikpapan (BPN),Juwata International Airport (TRK),Sriwijaya Air,Kalimantan Utara,Normal,Fog,NOO,YESS,57,294,4 jam 54 menit
+Jakarta(CGK),Balikpapan (BPN),Juwata International Airport (TRK),Citilink,Kalimantan Utara,Heavy,Partly Cloudy,NOO,NOO,84,179,2 jam 59 menit
+Jakarta(CGK),Balikpapan (BPN),Juwata International Airport (TRK),AirAsia,Kalimantan Utara,Moderate,Clear,NOO,NOO,88,348,5 jam 48 menit
+Jakarta(CGK),Balikpapan (BPN),Juwata International Airport (TRK),Garuda Indonesia,Kalimantan Utara,Normal,Rain,YESS,YESS,93,372,6 jam 12 menit
+Jakarta(CGK),Banjarmasin (BDJ),Juwata International Airport (TRK),Lion Air,Kalimantan Utara,Moderate,Partly Cloudy,NOO,NOO,100,201,3 jam 21 menit
+Jakarta(CGK),Banjarmasin (BDJ),Juwata International Airport (TRK),Sriwijaya Air,Kalimantan Utara,Normal,Clear,NOO,NOO,118,149,2 jam 29 menit
+Jakarta(CGK),Banjarmasin (BDJ),Juwata International Airport (TRK),Citilink,Kalimantan Utara,Moderate,Fog,NOO,YESS,67,380,6 jam 20 menit
+Jakarta(CGK),Banjarmasin (BDJ),Juwata International Airport (TRK),AirAsia,Kalimantan Utara,Heavy,Fog,YESS,NOO,118,347,5 jam 47 menit
+Jakarta(CGK),Banjarmasin (BDJ),Juwata International Airport (TRK),Garuda Indonesia,Kalimantan Utara,Normal,Rain,YESS,NOO,90,357,5 jam 57 menit
+Jakarta(CGK),Langsung,Sam Ratulangi International Airport (MDC),Lion Air,Sulawesi Utara,Normal,Fog,YESS,YESS,116,191,3 jam 11 menit
+Jakarta(CGK),Langsung,Sam Ratulangi International Airport (MDC),Sriwijaya Air,Sulawesi Utara,Normal,Fog,YESS,NOO,83,397,6 jam 37 menit
+Jakarta(CGK),Langsung,Sam Ratulangi International Airport (MDC),Citilink,Sulawesi Utara,Normal,Fog,YESS,NOO,120,160,2 jam 40 menit
+Jakarta(CGK),Langsung,Sam Ratulangi International Airport (MDC),AirAsia,Sulawesi Utara,Moderate,Clear,YESS,NOO,99,204,3 jam 24 menit
+Jakarta(CGK),Langsung,Sam Ratulangi International Airport (MDC),Garuda Indonesia,Sulawesi Utara,Moderate,Partly Cloudy,NOO,NOO,70,251,4 jam 11 menit
+Jakarta(CGK),Surabaya (SUB),Sam Ratulangi International Airport (MDC),Lion Air,Sulawesi Utara,Moderate,Partly Cloudy,YESS,YESS,115,162,2 jam 42 menit
+Jakarta(CGK),Surabaya (SUB),Sam Ratulangi International Airport (MDC),Sriwijaya Air,Sulawesi Utara,Moderate,Clear,NOO,YESS,67,130,2 jam 10 menit
+Jakarta(CGK),Surabaya (SUB),Sam Ratulangi International Airport (MDC),Citilink,Sulawesi Utara,Moderate,Partly Cloudy,YESS,NOO,62,330,5 jam 30 menit
+Jakarta(CGK),Surabaya (SUB),Sam Ratulangi International Airport (MDC),AirAsia,Sulawesi Utara,Heavy,Rain,NOO,YESS,112,282,4 jam 42 menit
+Jakarta(CGK),Surabaya (SUB),Sam Ratulangi International Airport (MDC),Garuda Indonesia,Sulawesi Utara,Normal,Fog,YESS,NOO,117,429,7 jam 9 menit
+Jakarta(CGK),Makassar (UPG),Sam Ratulangi International Airport (MDC),Lion Air,Sulawesi Utara,Normal,Fog,NOO,YESS,94,243,4 jam 3 menit
+Jakarta(CGK),Makassar (UPG),Sam Ratulangi International Airport (MDC),Sriwijaya Air,Sulawesi Utara,Heavy,Rain,YESS,YESS,101,252,4 jam 12 menit
+Jakarta(CGK),Makassar (UPG),Sam Ratulangi International Airport (MDC),Citilink,Sulawesi Utara,Normal,Rain,NOO,YESS,70,208,3 jam 28 menit
+Jakarta(CGK),Makassar (UPG),Sam Ratulangi International Airport (MDC),AirAsia,Sulawesi Utara,Heavy,Rain,YESS,NOO,93,231,3 jam 51 menit
+Jakarta(CGK),Makassar (UPG),Sam Ratulangi International Airport (MDC),Garuda Indonesia,Sulawesi Utara,Moderate,Partly Cloudy,NOO,YESS,84,276,4 jam 36 menit
+Jakarta(CGK),Makassar (UPG),Mutiara SIS Al-Jufrie Airport (PLW),Lion Air,Sulawesi Tengah,Heavy,Clear,YESS,YESS,98,308,5 jam 8 menit
+Jakarta(CGK),Makassar (UPG),Mutiara SIS Al-Jufrie Airport (PLW),Sriwijaya Air,Sulawesi Tengah,Moderate,Partly Cloudy,NOO,NOO,71,399,6 jam 39 menit
+Jakarta(CGK),Makassar (UPG),Mutiara SIS Al-Jufrie Airport (PLW),Citilink,Sulawesi Tengah,Heavy,Clear,NOO,YESS,67,154,2 jam 34 menit
+Jakarta(CGK),Makassar (UPG),Mutiara SIS Al-Jufrie Airport (PLW),AirAsia,Sulawesi Tengah,Moderate,Partly Cloudy,NOO,YESS,98,182,3 jam 2 menit
+Jakarta(CGK),Makassar (UPG),Mutiara SIS Al-Jufrie Airport (PLW),Garuda Indonesia,Sulawesi Tengah,Normal,Rain,YESS,YESS,75,217,3 jam 37 menit
+Jakarta(CGK),Langgur (LUV),Mutiara SIS Al-Jufrie Airport (PLW),Lion Air,Sulawesi Tengah,Heavy,Partly Cloudy,YESS,NOO,94,358,5 jam 58 menit
+Jakarta(CGK),Langgur (LUV),Mutiara SIS Al-Jufrie Airport (PLW),Sriwijaya Air,Sulawesi Tengah,Normal,Rain,YESS,YESS,89,362,6 jam 2 menit
+Jakarta(CGK),Langgur (LUV),Mutiara SIS Al-Jufrie Airport (PLW),Citilink,Sulawesi Tengah,Normal,Rain,NOO,NOO,105,277,4 jam 37 menit
+Jakarta(CGK),Langgur (LUV),Mutiara SIS Al-Jufrie Airport (PLW),AirAsia,Sulawesi Tengah,Moderate,Fog,YESS,YESS,74,329,5 jam 29 menit
+Jakarta(CGK),Langgur (LUV),Mutiara SIS Al-Jufrie Airport (PLW),Garuda Indonesia,Sulawesi Tengah,Normal,Rain,YESS,NOO,93,418,6 jam 58 menit
+Jakarta(CGK),Makassar (UPG),Tampa Padang Airport (MJU),Lion Air, Sulawesi Barat,Heavy,Partly Cloudy,YESS,YESS,92,328,5 jam 28 menit
+Jakarta(CGK),Makassar (UPG),Tampa Padang Airport (MJU),Sriwijaya Air, Sulawesi Barat,Heavy,Clear,NOO,YESS,97,422,7 jam 2 menit
+Jakarta(CGK),Makassar (UPG),Tampa Padang Airport (MJU),Citilink, Sulawesi Barat,Moderate,Partly Cloudy,NOO,NOO,90,347,5 jam 47 menit
+Jakarta(CGK),Makassar (UPG),Tampa Padang Airport (MJU),AirAsia, Sulawesi Barat,Moderate,Partly Cloudy,NOO,NOO,95,136,2 jam 16 menit
+Jakarta(CGK),Makassar (UPG),Tampa Padang Airport (MJU),Garuda Indonesia, Sulawesi Barat,Normal,Partly Cloudy,YESS,NOO,60,379,6 jam 19 menit
+Jakarta(CGK),Surabaya (SUB),Tampa Padang Airport (MJU),Lion Air, Sulawesi Barat,Moderate,Partly Cloudy,YESS,YESS,105,351,5 jam 51 menit
+Jakarta(CGK),Surabaya (SUB),Tampa Padang Airport (MJU),Sriwijaya Air, Sulawesi Barat,Moderate,Partly Cloudy,NOO,NOO,64,439,7 jam 19 menit
+Jakarta(CGK),Surabaya (SUB),Tampa Padang Airport (MJU),Citilink, Sulawesi Barat,Moderate,Partly Cloudy,NOO,NOO,115,340,5 jam 40 menit
+Jakarta(CGK),Surabaya (SUB),Tampa Padang Airport (MJU),AirAsia, Sulawesi Barat,Moderate,Rain,NOO,NOO,69,409,6 jam 49 menit
+Jakarta(CGK),Surabaya (SUB),Tampa Padang Airport (MJU),Garuda Indonesia, Sulawesi Barat,Normal,Rain,YESS,NOO,86,276,4 jam 36 menit
+Jakarta(CGK),Langsung,Sultan Hasanuddin International Airport (UPG),Lion Air, Sulawesi Selatan,Normal,Partly Cloudy,NOO,YESS,75,274,4 jam 34 menit
+Jakarta(CGK),Langsung,Sultan Hasanuddin International Airport (UPG),Sriwijaya Air, Sulawesi Selatan,Moderate,Rain,YESS,NOO,106,199,3 jam 19 menit
+Jakarta(CGK),Langsung,Sultan Hasanuddin International Airport (UPG),Citilink, Sulawesi Selatan,Moderate,Partly Cloudy,YESS,YESS,70,146,2 jam 26 menit
+Jakarta(CGK),Langsung,Sultan Hasanuddin International Airport (UPG),AirAsia, Sulawesi Selatan,Moderate,Clear,NOO,YESS,110,246,4 jam 6 menit
+Jakarta(CGK),Langsung,Sultan Hasanuddin International Airport (UPG),Garuda Indonesia, Sulawesi Selatan,Moderate,Rain,NOO,YESS,111,144,2 jam 24 menit
+Jakarta(CGK),Denpasar (DPS),Sultan Hasanuddin International Airport (UPG),Lion Air, Sulawesi Selatan,Normal,Rain,NOO,NOO,107,255,4 jam 15 menit
+Jakarta(CGK),Denpasar (DPS),Sultan Hasanuddin International Airport (UPG),Sriwijaya Air, Sulawesi Selatan,Moderate,Partly Cloudy,YESS,YESS,57,158,2 jam 38 menit
+Jakarta(CGK),Denpasar (DPS),Sultan Hasanuddin International Airport (UPG),Citilink, Sulawesi Selatan,Heavy,Partly Cloudy,NOO,YESS,64,440,7 jam 20 menit
+Jakarta(CGK),Denpasar (DPS),Sultan Hasanuddin International Airport (UPG),AirAsia, Sulawesi Selatan,Moderate,Partly Cloudy,YESS,NOO,62,420,7 jam 0 menit
+Jakarta(CGK),Denpasar (DPS),Sultan Hasanuddin International Airport (UPG),Garuda Indonesia, Sulawesi Selatan,Moderate,Fog,YESS,YESS,70,249,4 jam 9 menit
+Jakarta(CGK),Makassar (UPG),Haluoleo Airport (KDI),Lion Air, Sulawesi Tenggara ,Normal,Partly Cloudy,YESS,NOO,114,318,5 jam 18 menit
+Jakarta(CGK),Makassar (UPG),Haluoleo Airport (KDI),Sriwijaya Air, Sulawesi Tenggara ,Moderate,Partly Cloudy,NOO,YESS,62,290,4 jam 50 menit
+Jakarta(CGK),Makassar (UPG),Haluoleo Airport (KDI),Citilink, Sulawesi Tenggara ,Moderate,Clear,NOO,YESS,95,141,2 jam 21 menit
+Jakarta(CGK),Makassar (UPG),Haluoleo Airport (KDI),AirAsia, Sulawesi Tenggara ,Moderate,Fog,YESS,NOO,56,284,4 jam 44 menit
+Jakarta(CGK),Makassar (UPG),Haluoleo Airport (KDI),Garuda Indonesia, Sulawesi Tenggara ,Heavy,Rain,YESS,YESS,101,432,7 jam 12 menit
+Jakarta(CGK),Ambon (AMQ),Haluoleo Airport (KDI),Lion Air, Sulawesi Tenggara ,Heavy,Fog,NOO,YESS,68,347,5 jam 47 menit
+Jakarta(CGK),Ambon (AMQ),Haluoleo Airport (KDI),Sriwijaya Air, Sulawesi Tenggara ,Heavy,Fog,YESS,NOO,116,292,4 jam 52 menit
+Jakarta(CGK),Ambon (AMQ),Haluoleo Airport (KDI),Citilink, Sulawesi Tenggara ,Normal,Rain,NOO,NOO,110,210,3 jam 30 menit
+Jakarta(CGK),Ambon (AMQ),Haluoleo Airport (KDI),AirAsia, Sulawesi Tenggara ,Moderate,Clear,YESS,NOO,110,291,4 jam 51 menit
+Jakarta(CGK),Ambon (AMQ),Haluoleo Airport (KDI),Garuda Indonesia, Sulawesi Tenggara ,Moderate,Rain,YESS,NOO,89,323,5 jam 23 menit
+Jakarta(CGK),Manado (MDC),Jalaluddin Airport (GTO),Lion Air,Gorontalo,Moderate,Clear,NOO,YESS,95,321,5 jam 21 menit
+Jakarta(CGK),Manado (MDC),Jalaluddin Airport (GTO),Sriwijaya Air,Gorontalo,Moderate,Fog,NOO,NOO,91,258,4 jam 18 menit
+Jakarta(CGK),Manado (MDC),Jalaluddin Airport (GTO),Citilink,Gorontalo,Normal,Partly Cloudy,NOO,NOO,66,326,5 jam 26 menit
+Jakarta(CGK),Manado (MDC),Jalaluddin Airport (GTO),AirAsia,Gorontalo,Heavy,Clear,NOO,NOO,86,167,2 jam 47 menit
+Jakarta(CGK),Manado (MDC),Jalaluddin Airport (GTO),Garuda Indonesia,Gorontalo,Normal,Partly Cloudy,NOO,YESS,55,382,6 jam 22 menit
+Jakarta(CGK),Makassar (UPG),Jalaluddin Airport (GTO),Lion Air,Gorontalo,Normal,Clear,YESS,YESS,97,241,4 jam 1 menit
+Jakarta(CGK),Makassar (UPG),Jalaluddin Airport (GTO),Sriwijaya Air,Gorontalo,Moderate,Rain,NOO,YESS,101,424,7 jam 4 menit
+Jakarta(CGK),Makassar (UPG),Jalaluddin Airport (GTO),Citilink,Gorontalo,Normal,Partly Cloudy,YESS,NOO,115,412,6 jam 52 menit
+Jakarta(CGK),Makassar (UPG),Jalaluddin Airport (GTO),AirAsia,Gorontalo,Heavy,Partly Cloudy,NOO,NOO,113,279,4 jam 39 menit
+Jakarta(CGK),Makassar (UPG),Jalaluddin Airport (GTO),Garuda Indonesia,Gorontalo,Heavy,Fog,NOO,NOO,66,209,3 jam 29 menit
+Jakarta(CGK),Langsung,Sultan Babullah Airport (TTE),Lion Air,Maluku ,Moderate,Partly Cloudy,YESS,NOO,92,210,3 jam 30 menit
+Jakarta(CGK),Langsung,Sultan Babullah Airport (TTE),Sriwijaya Air,Maluku ,Moderate,Fog,NOO,NOO,72,405,6 jam 45 menit
+Jakarta(CGK),Langsung,Sultan Babullah Airport (TTE),Citilink,Maluku ,Moderate,Fog,NOO,YESS,101,237,3 jam 57 menit
+Jakarta(CGK),Langsung,Sultan Babullah Airport (TTE),AirAsia,Maluku ,Moderate,Rain,YESS,YESS,99,424,7 jam 4 menit
+Jakarta(CGK),Langsung,Sultan Babullah Airport (TTE),Garuda Indonesia,Maluku ,Normal,Clear,YESS,YESS,75,201,3 jam 21 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),Lion Air,Maluku ,Moderate,Partly Cloudy,YESS,YESS,63,364,6 jam 4 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),Sriwijaya Air,Maluku ,Heavy,Rain,YESS,YESS,115,333,5 jam 33 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),Citilink,Maluku ,Moderate,Rain,YESS,YESS,120,246,4 jam 6 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),AirAsia,Maluku ,Moderate,Rain,NOO,NOO,111,276,4 jam 36 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),Garuda Indonesia,Maluku ,Heavy,Fog,YESS,YESS,107,134,2 jam 14 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),Lion Air,Maluku Utara,Moderate,Partly Cloudy,YESS,NOO,98,438,7 jam 18 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),Sriwijaya Air,Maluku Utara,Moderate,Clear,NOO,NOO,115,178,2 jam 58 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),Citilink,Maluku Utara,Moderate,Clear,NOO,YESS,99,342,5 jam 42 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),AirAsia,Maluku Utara,Moderate,Rain,YESS,YESS,69,437,7 jam 17 menit
+Jakarta(CGK),Manado (MDC),Sultan Babullah Airport (TTE),Garuda Indonesia,Maluku Utara,Moderate,Fog,NOO,YESS,56,382,6 jam 22 menit
+Jakarta(CGK),Makassar (UPG),Sultan Babullah Airport (TTE),Lion Air,Maluku Utara,Heavy,Clear,NOO,YESS,118,391,6 jam 31 menit
+Jakarta(CGK),Makassar (UPG),Sultan Babullah Airport (TTE),Sriwijaya Air,Maluku Utara,Normal,Clear,NOO,NOO,106,192,3 jam 12 menit
+Jakarta(CGK),Makassar (UPG),Sultan Babullah Airport (TTE),Citilink,Maluku Utara,Moderate,Fog,YESS,NOO,88,300,5 jam 0 menit
+Jakarta(CGK),Makassar (UPG),Sultan Babullah Airport (TTE),AirAsia,Maluku Utara,Moderate,Fog,NOO,YESS,107,402,6 jam 42 menit
+Jakarta(CGK),Makassar (UPG),Sultan Babullah Airport (TTE),Garuda Indonesia,Maluku Utara,Moderate,Rain,YESS,NOO,115,405,6 jam 45 menit
+Jakarta(CGK),Makassar (UPG),Rendani Airport (MKW),Lion Air,Papua Barat,Moderate,Partly Cloudy,YESS,YESS,93,344,5 jam 44 menit
+Jakarta(CGK),Makassar (UPG),Rendani Airport (MKW),Sriwijaya Air,Papua Barat,Moderate,Fog,YESS,YESS,91,168,2 jam 48 menit
+Jakarta(CGK),Makassar (UPG),Rendani Airport (MKW),Citilink,Papua Barat,Heavy,Partly Cloudy,YESS,YESS,62,194,3 jam 14 menit
+Jakarta(CGK),Makassar (UPG),Rendani Airport (MKW),AirAsia,Papua Barat,Moderate,Fog,YESS,YESS,85,405,6 jam 45 menit
+Jakarta(CGK),Makassar (UPG),Rendani Airport (MKW),Garuda Indonesia,Papua Barat,Moderate,Rain,NOO,YESS,117,267,4 jam 27 menit
+Jakarta(CGK),Surabaya (SUB),Rendani Airport (MKW),Lion Air,Papua Barat,Heavy,Fog,YESS,NOO,109,213,3 jam 33 menit
+Jakarta(CGK),Surabaya (SUB),Rendani Airport (MKW),Sriwijaya Air,Papua Barat,Moderate,Fog,NOO,YESS,77,340,5 jam 40 menit
+Jakarta(CGK),Surabaya (SUB),Rendani Airport (MKW),Citilink,Papua Barat,Heavy,Fog,NOO,YESS,66,340,5 jam 40 menit
+Jakarta(CGK),Surabaya (SUB),Rendani Airport (MKW),AirAsia,Papua Barat,Moderate,Rain,YESS,NOO,86,319,5 jam 19 menit
+Jakarta(CGK),Surabaya (SUB),Rendani Airport (MKW),Garuda Indonesia,Papua Barat,Moderate,Partly Cloudy,YESS,YESS,88,360,6 jam 0 menit
+Jakarta(CGK),Makassar (UPG),Domine Eduard Osok Airport (SOQ),Lion Air,Papua Barat Daya,Moderate,Rain,NOO,YESS,106,399,6 jam 39 menit
+Jakarta(CGK),Makassar (UPG),Domine Eduard Osok Airport (SOQ),Sriwijaya Air,Papua Barat Daya,Heavy,Partly Cloudy,YESS,NOO,63,422,7 jam 2 menit
+Jakarta(CGK),Makassar (UPG),Domine Eduard Osok Airport (SOQ),Citilink,Papua Barat Daya,Moderate,Fog,YESS,YESS,89,234,3 jam 54 menit
+Jakarta(CGK),Makassar (UPG),Domine Eduard Osok Airport (SOQ),AirAsia,Papua Barat Daya,Heavy,Fog,YESS,YESS,120,152,2 jam 32 menit
+Jakarta(CGK),Makassar (UPG),Domine Eduard Osok Airport (SOQ),Garuda Indonesia,Papua Barat Daya,Heavy,Clear,NOO,NOO,107,227,3 jam 47 menit
+Jakarta(CGK),Surabaya (SUB),Domine Eduard Osok Airport (SOQ),Lion Air,Papua Barat Daya,Moderate,Partly Cloudy,NOO,YESS,79,128,2 jam 8 menit
+Jakarta(CGK),Surabaya (SUB),Domine Eduard Osok Airport (SOQ),Sriwijaya Air,Papua Barat Daya,Normal,Rain,YESS,YESS,109,252,4 jam 12 menit
+Jakarta(CGK),Surabaya (SUB),Domine Eduard Osok Airport (SOQ),Citilink,Papua Barat Daya,Heavy,Rain,YESS,NOO,91,134,2 jam 14 menit
+Jakarta(CGK),Surabaya (SUB),Domine Eduard Osok Airport (SOQ),AirAsia,Papua Barat Daya,Moderate,Partly Cloudy,NOO,YESS,63,436,7 jam 16 menit
+Jakarta(CGK),Surabaya (SUB),Domine Eduard Osok Airport (SOQ),Garuda Indonesia,Papua Barat Daya,Heavy,Clear,NOO,NOO,120,262,4 jam 22 menit
+Jakarta(CGK),Jayapura (DJJ),Wamena Airport (WMX),Lion Air,Papua Pegunungan,Heavy,Clear,NOO,NOO,112,134,2 jam 14 menit
+Jakarta(CGK),Jayapura (DJJ),Wamena Airport (WMX),Sriwijaya Air,Papua Pegunungan,Normal,Rain,YESS,NOO,109,371,6 jam 11 menit
+Jakarta(CGK),Jayapura (DJJ),Wamena Airport (WMX),Citilink,Papua Pegunungan,Heavy,Partly Cloudy,NOO,NOO,100,363,6 jam 3 menit
+Jakarta(CGK),Jayapura (DJJ),Wamena Airport (WMX),AirAsia,Papua Pegunungan,Moderate,Fog,YESS,NOO,87,262,4 jam 22 menit
+Jakarta(CGK),Jayapura (DJJ),Wamena Airport (WMX),Garuda Indonesia,Papua Pegunungan,Normal,Fog,YESS,NOO,117,169,2 jam 49 menit
+Jakarta(CGK),Makassar (UPG),Wamena Airport (WMX),Lion Air,Papua Pegunungan,Moderate,Fog,NOO,NOO,55,206,3 jam 26 menit
+Jakarta(CGK),Makassar (UPG),Wamena Airport (WMX),Sriwijaya Air,Papua Pegunungan,Moderate,Fog,YESS,YESS,76,207,3 jam 27 menit
+Jakarta(CGK),Makassar (UPG),Wamena Airport (WMX),Citilink,Papua Pegunungan,Moderate,Fog,YESS,NOO,60,155,2 jam 35 menit
+Jakarta(CGK),Makassar (UPG),Wamena Airport (WMX),AirAsia,Papua Pegunungan,Normal,Clear,NOO,YESS,72,205,3 jam 25 menit
+Jakarta(CGK),Makassar (UPG),Wamena Airport (WMX),Garuda Indonesia,Papua Pegunungan,Heavy,Rain,YESS,YESS,80,225,3 jam 45 menit
+Jakarta(CGK),Makassar (UPG),Nabire Airport (NBX),Lion Air,Papua Tengah,Heavy,Clear,NOO,YESS,114,187,3 jam 7 menit
+Jakarta(CGK),Makassar (UPG),Nabire Airport (NBX),Sriwijaya Air,Papua Tengah,Heavy,Partly Cloudy,NOO,NOO,118,188,3 jam 8 menit
+Jakarta(CGK),Makassar (UPG),Nabire Airport (NBX),Citilink,Papua Tengah,Normal,Rain,YESS,YESS,116,346,5 jam 46 menit
+Jakarta(CGK),Makassar (UPG),Nabire Airport (NBX),AirAsia,Papua Tengah,Moderate,Partly Cloudy,NOO,YESS,103,276,4 jam 36 menit
+Jakarta(CGK),Makassar (UPG),Nabire Airport (NBX),Garuda Indonesia,Papua Tengah,Moderate,Rain,NOO,YESS,82,323,5 jam 23 menit
+Jakarta(CGK),Surabaya (SUB),Nabire Airport (NBX),Lion Air,Papua Tengah,Moderate,Rain,YESS,NOO,67,332,5 jam 32 menit
+Jakarta(CGK),Surabaya (SUB),Nabire Airport (NBX),Sriwijaya Air,Papua Tengah,Heavy,Partly Cloudy,NOO,NOO,62,280,4 jam 40 menit
+Jakarta(CGK),Surabaya (SUB),Nabire Airport (NBX),Citilink,Papua Tengah,Heavy,Clear,YESS,YESS,56,195,3 jam 15 menit
+Jakarta(CGK),Surabaya (SUB),Nabire Airport (NBX),AirAsia,Papua Tengah,Moderate,Partly Cloudy,YESS,NOO,114,416,6 jam 56 menit
+Jakarta(CGK),Surabaya (SUB),Nabire Airport (NBX),Garuda Indonesia,Papua Tengah,Moderate,Clear,NOO,NOO,69,386,6 jam 26 menit
+Jakarta(CGK),Langsung,Sentani International Airport (DJJ),Lion Air,Papua,Heavy,Partly Cloudy,YESS,YESS,56,302,5 jam 2 menit
+Jakarta(CGK),Langsung,Sentani International Airport (DJJ),Sriwijaya Air,Papua,Moderate,Partly Cloudy,NOO,YESS,119,255,4 jam 15 menit
+Jakarta(CGK),Langsung,Sentani International Airport (DJJ),Citilink,Papua,Moderate,Fog,YESS,YESS,66,239,3 jam 59 menit
+Jakarta(CGK),Langsung,Sentani International Airport (DJJ),AirAsia,Papua,Heavy,Partly Cloudy,NOO,YESS,103,410,6 jam 50 menit
+Jakarta(CGK),Langsung,Sentani International Airport (DJJ),Garuda Indonesia,Papua,Moderate,Clear,YESS,YESS,56,427,7 jam 7 menit
+Jakarta(CGK),Makassar (UPG),Sentani International Airport (DJJ),Lion Air,Papua,Normal,Partly Cloudy,YESS,YESS,71,167,2 jam 47 menit
+Jakarta(CGK),Makassar (UPG),Sentani International Airport (DJJ),Sriwijaya Air,Papua,Moderate,Partly Cloudy,NOO,NOO,90,134,2 jam 14 menit
+Jakarta(CGK),Makassar (UPG),Sentani International Airport (DJJ),Citilink,Papua,Moderate,Rain,NOO,NOO,114,379,6 jam 19 menit
+Jakarta(CGK),Makassar (UPG),Sentani International Airport (DJJ),AirAsia,Papua,Normal,Fog,NOO,NOO,92,210,3 jam 30 menit
+Jakarta(CGK),Makassar (UPG),Sentani International Airport (DJJ),Garuda Indonesia,Papua,Moderate,Partly Cloudy,NOO,NOO,93,193,3 jam 13 menit
+Jakarta(CGK),Makassar (UPG),Mopah Airport (MKQ),Lion Air,Papua Selatan,Heavy,Rain,YESS,NOO,98,227,3 jam 47 menit
+Jakarta(CGK),Makassar (UPG),Mopah Airport (MKQ),Sriwijaya Air,Papua Selatan,Moderate,Partly Cloudy,NOO,NOO,85,311,5 jam 11 menit
+Jakarta(CGK),Makassar (UPG),Mopah Airport (MKQ),Citilink,Papua Selatan,Moderate,Fog,YESS,YESS,58,277,4 jam 37 menit
+Jakarta(CGK),Makassar (UPG),Mopah Airport (MKQ),AirAsia,Papua Selatan,Moderate,Clear,NOO,NOO,54,148,2 jam 28 menit
+Jakarta(CGK),Makassar (UPG),Mopah Airport (MKQ),Garuda Indonesia,Papua Selatan,Moderate,Partly Cloudy,NOO,YESS,68,357,5 jam 57 menit
+Jakarta(CGK),Denpasar (DPS),Mopah Airport (MKQ),Lion Air,Papua Selatan,Moderate,Clear,YESS,NOO,65,273,4 jam 33 menit
+Jakarta(CGK),Denpasar (DPS),Mopah Airport (MKQ),Sriwijaya Air,Papua Selatan,Normal,Rain,NOO,YESS,97,424,7 jam 4 menit
+Jakarta(CGK),Denpasar (DPS),Mopah Airport (MKQ),Citilink,Papua Selatan,Moderate,Clear,YESS,NOO,61,180,3 jam 0 menit
+Jakarta(CGK),Denpasar (DPS),Mopah Airport (MKQ),AirAsia,Papua Selatan,Moderate,Rain,YESS,NOO,118,395,6 jam 35 menit
+Jakarta(CGK),Denpasar (DPS),Mopah Airport (MKQ),Garuda Indonesia,Papua Selatan,Heavy,Clear,NOO,NOO,118,159,2 jam 39 menit

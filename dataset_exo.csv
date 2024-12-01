@@ -1,0 +1,131 @@
+﻿Origin,Transit,Airport,Airlines,Destination,Traffic Condition,Weather Condition,Vehicle Available,Personel Available,Runway Occupancy Time,Estimated Time menit,Estimated Time spesifik
+Palembang (PLM),Langsung,Sultan Thaha Airport (DJB),Lion Air,Jambi,Heavy,Fog,NOO,NOO,70,779,12 jam 59 menit
+Palembang (PLM),Langsung,Sultan Thaha Airport (DJB),Sriwijaya Air,Jambi,Heavy,Clear,NOO,YESS,88,608,10 jam 8 menit
+Palembang (PLM),Langsung,Sultan Thaha Airport (DJB),Citilink,Jambi,Moderate,Partly Cloudy,YESS,NOO,77,723,12 jam 3 menit
+Palembang (PLM),Langsung,Sultan Thaha Airport (DJB),AirAsia,Jambi,Moderate,Clear,YESS,YESS,65,364,6 jam 4 menit
+Palembang (PLM),Langsung,Sultan Thaha Airport (DJB),Garuda Indonesia,Jambi,Moderate,Fog,NOO,YESS,108,347,5 jam 47 menit
+Palembang (PLM),Langsung,Fatmawati Soekarno Airport (BKS),Lion Air,Bengkulu,Heavy,Clear,YESS,YESS,59,316,5 jam 16 menit
+Palembang (PLM),Langsung,Fatmawati Soekarno Airport (BKS),Sriwijaya Air,Bengkulu,Moderate,Partly Cloudy,NOO,YESS,84,1107,18 jam 27 menit
+Palembang (PLM),Langsung,Fatmawati Soekarno Airport (BKS),Citilink,Bengkulu,Moderate,Rain,NOO,YESS,80,452,7 jam 32 menit
+Palembang (PLM),Langsung,Fatmawati Soekarno Airport (BKS),AirAsia,Bengkulu,Moderate,Clear,YESS,YESS,68,1129,18 jam 49 menit
+Palembang (PLM),Langsung,Fatmawati Soekarno Airport (BKS),Garuda Indonesia,Bengkulu,Moderate,Fog,NOO,YESS,87,890,14 jam 50 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),Lion Air,Jambi,Heavy,Clear,YESS,YESS,55,352,5 jam 52 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),Sriwijaya Air,Jambi,Heavy,Fog,NOO,YESS,72,826,13 jam 46 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),Citilink,Jambi,Heavy,Clear,YESS,YESS,81,953,15 jam 53 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),AirAsia,Jambi,Moderate,Clear,YESS,YESS,81,731,12 jam 11 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),Garuda Indonesia,Jambi,Moderate,Rain,NOO,NOO,107,924,15 jam 24 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),Lion Air,Jambi,Heavy,Fog,NOO,YESS,96,366,6 jam 6 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),Sriwijaya Air,Jambi,Moderate,Clear,NOO,NOO,107,766,12 jam 46 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),Citilink,Jambi,Moderate,Rain,YESS,YESS,69,790,13 jam 10 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),AirAsia,Jambi,Normal,Clear,NOO,YESS,101,709,11 jam 49 menit
+Medan (KNO),Langsung,Sultan Thaha Airport (DJB),Garuda Indonesia,Jambi,Normal,Fog,NOO,YESS,120,409,6 jam 49 menit
+Denpasar (DPS),Langsung,El Tari Airport (KOE),Lion Air,NTT,Normal,Partly Cloudy,NOO,YESS,97,399,6 jam 39 menit
+Denpasar (DPS),Langsung,El Tari Airport (KOE),Sriwijaya Air,NTT,Heavy,Rain,YESS,YESS,106,809,13 jam 29 menit
+Denpasar (DPS),Langsung,El Tari Airport (KOE),Citilink,NTT,Normal,Rain,NOO,NOO,99,497,8 jam 17 menit
+Denpasar (DPS),Langsung,El Tari Airport (KOE),AirAsia,NTT,Heavy,Rain,YESS,NOO,109,554,9 jam 14 menit
+Denpasar (DPS),Langsung,El Tari Airport (KOE),Garuda Indonesia,NTT,Heavy,Clear,YESS,NOO,111,412,6 jam 52 menit
+Denpasar (DPS),Langsung,Mopah Airport (MKQ),Lion Air,Papua Selatan,Heavy,Partly Cloudy,NOO,YESS,101,610,10 jam 10 menit
+Denpasar (DPS),Langsung,Mopah Airport (MKQ),Sriwijaya Air,Papua Selatan,Moderate,Fog,YESS,NOO,103,832,13 jam 52 menit
+Denpasar (DPS),Langsung,Mopah Airport (MKQ),Citilink,Papua Selatan,Moderate,Fog,YESS,NOO,56,837,13 jam 57 menit
+Denpasar (DPS),Langsung,Mopah Airport (MKQ),AirAsia,Papua Selatan,Heavy,Clear,YESS,YESS,62,822,13 jam 42 menit
+Denpasar (DPS),Langsung,Mopah Airport (MKQ),Garuda Indonesia,Papua Selatan,Moderate,Fog,NOO,YESS,102,410,6 jam 50 menit
+Surabaya (SUB),Langsung,Domine Eduard Osok Airport (SOQ),Lion Air,Papua Barat Daya,Moderate,Partly Cloudy,YESS,YESS,98,697,11 jam 37 menit
+Surabaya (SUB),Langsung,Domine Eduard Osok Airport (SOQ),Sriwijaya Air,Papua Barat Daya,Normal,Rain,NOO,YESS,93,571,9 jam 31 menit
+Surabaya (SUB),Langsung,Domine Eduard Osok Airport (SOQ),Citilink,Papua Barat Daya,Moderate,Clear,NOO,YESS,80,1050,17 jam 30 menit
+Surabaya (SUB),Langsung,Domine Eduard Osok Airport (SOQ),AirAsia,Papua Barat Daya,Moderate,Rain,YESS,YESS,69,813,13 jam 33 menit
+Surabaya (SUB),Langsung,Domine Eduard Osok Airport (SOQ),Garuda Indonesia,Papua Barat Daya,Heavy,Clear,YESS,NOO,113,649,10 jam 49 menit
+Surabaya (SUB),Langsung,El Tari Airport (KOE),Lion Air,NTT,Normal,Fog,YESS,YESS,110,989,16 jam 29 menit
+Surabaya (SUB),Langsung,El Tari Airport (KOE),Sriwijaya Air,NTT,Moderate,Clear,NOO,NOO,56,688,11 jam 28 menit
+Surabaya (SUB),Langsung,El Tari Airport (KOE),Citilink,NTT,Heavy,Rain,YESS,YESS,59,648,10 jam 48 menit
+Surabaya (SUB),Langsung,El Tari Airport (KOE),AirAsia,NTT,Moderate,Fog,YESS,YESS,103,934,15 jam 34 menit
+Surabaya (SUB),Langsung,El Tari Airport (KOE),Garuda Indonesia,NTT,Moderate,Rain,YESS,NOO,94,409,6 jam 49 menit
+Surabaya (SUB),Langsung,Rendani Airport (MKW),Lion Air,Papua Barat,Normal,Rain,NOO,YESS,113,1119,18 jam 39 menit
+Surabaya (SUB),Langsung,Rendani Airport (MKW),Sriwijaya Air,Papua Barat,Heavy,Fog,YESS,NOO,74,368,6 jam 8 menit
+Surabaya (SUB),Langsung,Rendani Airport (MKW),Citilink,Papua Barat,Moderate,Partly Cloudy,YESS,YESS,73,972,16 jam 12 menit
+Surabaya (SUB),Langsung,Rendani Airport (MKW),AirAsia,Papua Barat,Heavy,Rain,YESS,YESS,73,823,13 jam 43 menit
+Surabaya (SUB),Langsung,Rendani Airport (MKW),Garuda Indonesia,Papua Barat,Moderate,Fog,NOO,YESS,59,618,10 jam 18 menit
+Surabaya (SUB),Langsung,Tampa Padang Airport (MJU),Lion Air, Sulawesi Barat,Moderate,Rain,YESS,YESS,98,947,15 jam 47 menit
+Surabaya (SUB),Langsung,Tampa Padang Airport (MJU),Sriwijaya Air, Sulawesi Barat,Normal,Rain,NOO,NOO,70,769,12 jam 49 menit
+Surabaya (SUB),Langsung,Tampa Padang Airport (MJU),Citilink, Sulawesi Barat,Normal,Partly Cloudy,NOO,YESS,97,944,15 jam 44 menit
+Surabaya (SUB),Langsung,Tampa Padang Airport (MJU),AirAsia, Sulawesi Barat,Normal,Partly Cloudy,NOO,NOO,119,755,12 jam 35 menit
+Surabaya (SUB),Langsung,Tampa Padang Airport (MJU),Garuda Indonesia, Sulawesi Barat,Normal,Partly Cloudy,YESS,YESS,81,879,14 jam 39 menit
+Surabaya (SUB),Langsung,Nabire Airport (NBX),Lion Air,Papua Tengah,Normal,Fog,YESS,YESS,110,1018,16 jam 58 menit
+Surabaya (SUB),Langsung,Nabire Airport (NBX),Sriwijaya Air,Papua Tengah,Moderate,Partly Cloudy,NOO,YESS,88,672,11 jam 12 menit
+Surabaya (SUB),Langsung,Nabire Airport (NBX),Citilink,Papua Tengah,Heavy,Fog,NOO,NOO,68,921,15 jam 21 menit
+Surabaya (SUB),Langsung,Nabire Airport (NBX),AirAsia,Papua Tengah,Moderate,Fog,YESS,NOO,114,845,14 jam 5 menit
+Surabaya (SUB),Langsung,Nabire Airport (NBX),Garuda Indonesia,Papua Tengah,Moderate,Fog,NOO,NOO,57,631,10 jam 31 menit
+Balikpapan (BPN),Langsung,Juwata International Airport (TRK),Lion Air,Kalimantan Utara,Moderate,Rain,YESS,YESS,64,752,12 jam 32 menit
+Balikpapan (BPN),Langsung,Juwata International Airport (TRK),Sriwijaya Air,Kalimantan Utara,Heavy,Clear,YESS,NOO,56,848,14 jam 8 menit
+Balikpapan (BPN),Langsung,Juwata International Airport (TRK),Citilink,Kalimantan Utara,Heavy,Rain,NOO,NOO,95,974,16 jam 14 menit
+Balikpapan (BPN),Langsung,Juwata International Airport (TRK),AirAsia,Kalimantan Utara,Moderate,Clear,NOO,YESS,82,911,15 jam 11 menit
+Balikpapan (BPN),Langsung,Juwata International Airport (TRK),Garuda Indonesia,Kalimantan Utara,Moderate,Clear,YESS,NOO,67,686,11 jam 26 menit
+Banjarmasin (BDJ),Langsung,Juwata International Airport (TRK),Lion Air,Kalimantan Utara,Moderate,Clear,NOO,NOO,73,344,5 jam 44 menit
+Banjarmasin (BDJ),Langsung,Juwata International Airport (TRK),Sriwijaya Air,Kalimantan Utara,Moderate,Fog,NOO,NOO,115,1026,17 jam 6 menit
+Banjarmasin (BDJ),Langsung,Juwata International Airport (TRK),Citilink,Kalimantan Utara,Moderate,Rain,YESS,YESS,105,572,9 jam 32 menit
+Banjarmasin (BDJ),Langsung,Juwata International Airport (TRK),AirAsia,Kalimantan Utara,Heavy,Clear,YESS,NOO,93,798,13 jam 18 menit
+Banjarmasin (BDJ),Langsung,Juwata International Airport (TRK),Garuda Indonesia,Kalimantan Utara,Moderate,Fog,YESS,NOO,60,471,7 jam 51 menit
+Makassar (UPG),Langsung,Domine Eduard Osok Airport (SOQ),Lion Air,Papua Barat Daya,Normal,Fog,NOO,YESS,115,844,14 jam 4 menit
+Makassar (UPG),Langsung,Domine Eduard Osok Airport (SOQ),Sriwijaya Air,Papua Barat Daya,Heavy,Rain,NOO,NOO,61,998,16 jam 38 menit
+Makassar (UPG),Langsung,Domine Eduard Osok Airport (SOQ),Citilink,Papua Barat Daya,Moderate,Rain,YESS,YESS,96,573,9 jam 33 menit
+Makassar (UPG),Langsung,Domine Eduard Osok Airport (SOQ),AirAsia,Papua Barat Daya,Heavy,Rain,NOO,YESS,102,427,7 jam 7 menit
+Makassar (UPG),Langsung,Domine Eduard Osok Airport (SOQ),Garuda Indonesia,Papua Barat Daya,Heavy,Fog,YESS,NOO,120,561,9 jam 21 menit
+Makassar (UPG),Langsung,Tampa Padang Airport (MJU),Lion Air, Sulawesi Barat,Moderate,Fog,YESS,NOO,106,793,13 jam 13 menit
+Makassar (UPG),Langsung,Tampa Padang Airport (MJU),Sriwijaya Air, Sulawesi Barat,Moderate,Clear,YESS,NOO,99,412,6 jam 52 menit
+Makassar (UPG),Langsung,Tampa Padang Airport (MJU),Citilink, Sulawesi Barat,Moderate,Clear,YESS,YESS,61,712,11 jam 52 menit
+Makassar (UPG),Langsung,Tampa Padang Airport (MJU),AirAsia, Sulawesi Barat,Moderate,Fog,NOO,NOO,97,794,13 jam 14 menit
+Makassar (UPG),Langsung,Tampa Padang Airport (MJU),Garuda Indonesia, Sulawesi Barat,Normal,Rain,YESS,YESS,112,512,8 jam 32 menit
+Makassar (UPG),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),Lion Air,Sulawesi Tengah,Normal,Fog,NOO,NOO,118,838,13 jam 58 menit
+Makassar (UPG),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),Sriwijaya Air,Sulawesi Tengah,Moderate,Rain,NOO,YESS,62,966,16 jam 6 menit
+Makassar (UPG),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),Citilink,Sulawesi Tengah,Moderate,Rain,NOO,YESS,118,743,12 jam 23 menit
+Makassar (UPG),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),AirAsia,Sulawesi Tengah,Heavy,Partly Cloudy,NOO,NOO,106,639,10 jam 39 menit
+Makassar (UPG),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),Garuda Indonesia,Sulawesi Tengah,Moderate,Fog,NOO,YESS,94,694,11 jam 34 menit
+Makassar (UPG),Langsung,Haluoleo Airport (KDI),Lion Air, Sulawesi Tenggara ,Moderate,Clear,YESS,YESS,68,432,7 jam 12 menit
+Makassar (UPG),Langsung,Haluoleo Airport (KDI),Sriwijaya Air, Sulawesi Tenggara ,Moderate,Rain,YESS,YESS,118,485,8 jam 5 menit
+Makassar (UPG),Langsung,Haluoleo Airport (KDI),Citilink, Sulawesi Tenggara ,Moderate,Fog,YESS,NOO,67,1093,18 jam 13 menit
+Makassar (UPG),Langsung,Haluoleo Airport (KDI),AirAsia, Sulawesi Tenggara ,Moderate,Clear,YESS,YESS,109,826,13 jam 46 menit
+Makassar (UPG),Langsung,Haluoleo Airport (KDI),Garuda Indonesia, Sulawesi Tenggara ,Normal,Clear,YESS,NOO,87,663,11 jam 3 menit
+Makassar (UPG),Langsung,Sultan Babullah Airport (TTE),Lion Air,Maluku Utara,Heavy,Rain,NOO,YESS,84,615,10 jam 15 menit
+Makassar (UPG),Langsung,Sultan Babullah Airport (TTE),Sriwijaya Air,Maluku Utara,Moderate,Partly Cloudy,NOO,NOO,69,544,9 jam 4 menit
+Makassar (UPG),Langsung,Sultan Babullah Airport (TTE),Citilink,Maluku Utara,Moderate,Fog,YESS,YESS,93,368,6 jam 8 menit
+Makassar (UPG),Langsung,Sultan Babullah Airport (TTE),AirAsia,Maluku Utara,Normal,Rain,NOO,YESS,62,1092,18 jam 12 menit
+Makassar (UPG),Langsung,Sultan Babullah Airport (TTE),Garuda Indonesia,Maluku Utara,Normal,Partly Cloudy,YESS,NOO,83,474,7 jam 54 menit
+Makassar (UPG),Langsung,Rendani Airport (MKW),Lion Air,Papua Barat,Moderate,Clear,YESS,YESS,78,682,11 jam 22 menit
+Makassar (UPG),Langsung,Rendani Airport (MKW),Sriwijaya Air,Papua Barat,Moderate,Clear,YESS,NOO,57,1080,18 jam 0 menit
+Makassar (UPG),Langsung,Rendani Airport (MKW),Citilink,Papua Barat,Moderate,Rain,YESS,YESS,55,432,7 jam 12 menit
+Makassar (UPG),Langsung,Rendani Airport (MKW),AirAsia,Papua Barat,Normal,Clear,YESS,NOO,89,927,15 jam 27 menit
+Makassar (UPG),Langsung,Rendani Airport (MKW),Garuda Indonesia,Papua Barat,Moderate,Partly Cloudy,NOO,NOO,90,1071,17 jam 51 menit
+Makassar (UPG),Langsung,Wamena Airport (WMX),Lion Air,Papua Pegunungan,Moderate,Fog,NOO,YESS,87,1073,17 jam 53 menit
+Makassar (UPG),Langsung,Wamena Airport (WMX),Sriwijaya Air,Papua Pegunungan,Moderate,Rain,NOO,NOO,86,630,10 jam 30 menit
+Makassar (UPG),Langsung,Wamena Airport (WMX),Citilink,Papua Pegunungan,Moderate,Fog,NOO,NOO,87,982,16 jam 22 menit
+Makassar (UPG),Langsung,Wamena Airport (WMX),AirAsia,Papua Pegunungan,Heavy,Partly Cloudy,NOO,YESS,97,736,12 jam 16 menit
+Makassar (UPG),Langsung,Wamena Airport (WMX),Garuda Indonesia,Papua Pegunungan,Normal,Fog,YESS,NOO,116,577,9 jam 37 menit
+Makassar (UPG),Langsung,Nabire Airport (NBX),Lion Air,Papua Tengah,Moderate,Partly Cloudy,YESS,YESS,108,882,14 jam 42 menit
+Makassar (UPG),Langsung,Nabire Airport (NBX),Sriwijaya Air,Papua Tengah,Moderate,Rain,NOO,YESS,71,618,10 jam 18 menit
+Makassar (UPG),Langsung,Nabire Airport (NBX),Citilink,Papua Tengah,Heavy,Fog,YESS,YESS,57,486,8 jam 6 menit
+Makassar (UPG),Langsung,Nabire Airport (NBX),AirAsia,Papua Tengah,Normal,Partly Cloudy,NOO,YESS,80,705,11 jam 45 menit
+Makassar (UPG),Langsung,Nabire Airport (NBX),Garuda Indonesia,Papua Tengah,Moderate,Rain,NOO,YESS,67,1122,18 jam 42 menit
+Makassar (UPG),Langsung,Mopah Airport (MKQ),Lion Air,Papua Selatan,Moderate,Rain,YESS,NOO,81,844,14 jam 4 menit
+Makassar (UPG),Langsung,Mopah Airport (MKQ),Sriwijaya Air,Papua Selatan,Normal,Partly Cloudy,NOO,YESS,64,538,8 jam 58 menit
+Makassar (UPG),Langsung,Mopah Airport (MKQ),Citilink,Papua Selatan,Heavy,Partly Cloudy,YESS,YESS,85,869,14 jam 29 menit
+Makassar (UPG),Langsung,Mopah Airport (MKQ),AirAsia,Papua Selatan,Normal,Rain,YESS,YESS,79,817,13 jam 37 menit
+Makassar (UPG),Langsung,Mopah Airport (MKQ),Garuda Indonesia,Papua Selatan,Heavy,Clear,NOO,YESS,111,752,12 jam 32 menit
+Langgur (LUV),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),Lion Air,Sulawesi Tengah,Normal,Clear,NOO,NOO,74,408,6 jam 48 menit
+Langgur (LUV),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),Sriwijaya Air,Sulawesi Tengah,Heavy,Rain,YESS,NOO,81,771,12 jam 51 menit
+Langgur (LUV),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),Citilink,Sulawesi Tengah,Moderate,Fog,NOO,NOO,82,733,12 jam 13 menit
+Langgur (LUV),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),AirAsia,Sulawesi Tengah,Moderate,Clear,YESS,YESS,114,494,8 jam 14 menit
+Langgur (LUV),Langsung,Mutiara SIS Al-Jufrie Airport (PLW),Garuda Indonesia,Sulawesi Tengah,Heavy,Clear,YESS,YESS,90,769,12 jam 49 menit
+Ambon (AMQ),Langsung,Haluoleo Airport (KDI),Lion Air, Sulawesi Tenggara ,Normal,Rain,YESS,NOO,120,790,13 jam 10 menit
+Ambon (AMQ),Langsung,Haluoleo Airport (KDI),Sriwijaya Air, Sulawesi Tenggara ,Moderate,Rain,NOO,NOO,70,1115,18 jam 35 menit
+Ambon (AMQ),Langsung,Haluoleo Airport (KDI),Citilink, Sulawesi Tenggara ,Moderate,Rain,YESS,YESS,86,576,9 jam 36 menit
+Ambon (AMQ),Langsung,Haluoleo Airport (KDI),AirAsia, Sulawesi Tenggara ,Moderate,Rain,YESS,YESS,64,1003,16 jam 43 menit
+Ambon (AMQ),Langsung,Haluoleo Airport (KDI),Garuda Indonesia, Sulawesi Tenggara ,Heavy,Clear,YESS,NOO,78,1046,17 jam 26 menit
+Manado (MDC),Langsung,Sultan Babullah Airport (TTE),Lion Air,Maluku Utara,Moderate,Rain,NOO,NOO,117,607,10 jam 7 menit
+Manado (MDC),Langsung,Sultan Babullah Airport (TTE),Sriwijaya Air,Maluku Utara,Normal,Rain,YESS,NOO,87,440,7 jam 20 menit
+Manado (MDC),Langsung,Sultan Babullah Airport (TTE),Citilink,Maluku Utara,Heavy,Clear,YESS,NOO,89,809,13 jam 29 menit
+Manado (MDC),Langsung,Sultan Babullah Airport (TTE),AirAsia,Maluku Utara,Moderate,Fog,YESS,YESS,120,689,11 jam 29 menit
+Manado (MDC),Langsung,Sultan Babullah Airport (TTE),Garuda Indonesia,Maluku Utara,Heavy,Partly Cloudy,YESS,YESS,108,470,7 jam 50 menit
+Jayapura (DJJ),Langsung,Wamena Airport (WMX),Lion Air,Papua Pegunungan,Moderate,Fog,NOO,YESS,78,1088,18 jam 8 menit
+Jayapura (DJJ),Langsung,Wamena Airport (WMX),Sriwijaya Air,Papua Pegunungan,Moderate,Partly Cloudy,YESS,YESS,89,592,9 jam 52 menit
+Jayapura (DJJ),Langsung,Wamena Airport (WMX),Citilink,Papua Pegunungan,Heavy,Partly Cloudy,NOO,YESS,90,342,5 jam 42 menit
+Jayapura (DJJ),Langsung,Wamena Airport (WMX),AirAsia,Papua Pegunungan,Moderate,Partly Cloudy,YESS,NOO,99,1034,17 jam 14 menit
+Jayapura (DJJ),Langsung,Wamena Airport (WMX),Garuda Indonesia,Papua Pegunungan,Moderate,Fog,NOO,YESS,109,1099,18 jam 19 menit
